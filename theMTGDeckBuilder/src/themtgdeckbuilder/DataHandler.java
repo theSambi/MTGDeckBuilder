@@ -24,7 +24,7 @@ public class DataHandler {
         Cards[4] = new Card("Angel of Invention", "Creature — Angel", 2, 1, new Object[][] {{"white",2},{"generic",3}}, 4);
         Cards[5] = new Card("Authority of the Consuls", "Enchantment", -1, -1, new Object[][] {{"white",1}}, 5);
         
-        for(int i = 0; i < Cards.length; i++){
+        for(int i = 1; i < Cards.length; i++){
             String name = Cards[i].getName();
             Integer put = Data.put(name, i);
         }
