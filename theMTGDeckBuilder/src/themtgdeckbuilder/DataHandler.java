@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mtg.deckbuilder;
+package themtgdeckbuilder;
 
 import java.util.Hashtable;
 
@@ -37,8 +37,8 @@ public class DataHandler {
             String mana = "";
             Object[][] temp = Cards[n].getManaTypes();
             for(int i = 0; i < temp.length; i++){
-                System.out.println("Mana type:" + temp[i][0] + " " + temp[i][1]);
-                mana = "Mana type:" + temp[i][0] + " " + temp[i][1];
+                // System.out.println("Mana type:" + temp[i][0] + " " + temp[i][1]);
+                mana = temp[i][0] + " " + temp[i][1];
             }
             System.out.println();
             System.out.println("Name: " + Cards[n].getName());
