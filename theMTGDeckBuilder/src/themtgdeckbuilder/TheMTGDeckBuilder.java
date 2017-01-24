@@ -17,8 +17,7 @@ public class TheMTGDeckBuilder {
     public static void main(String[] args) {
         // TODO code application logic here
         DataHandler Data = new DataHandler();
-        Data.getCard("Angel of Invention");
-        
+        Data.getCard("Aerial Responder");
     }
     
 }
