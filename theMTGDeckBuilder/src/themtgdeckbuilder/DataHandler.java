@@ -25,7 +25,6 @@ public class DataHandler {
         Cards[5] = new Card("Authority of the Consuls", "Enchantment", -1, -1, new Object[][] {{"white",1}}, 5);
         
         for(int i = 0; i < Cards.length; i++){
-            i++;
             String name = Cards[i].getName();
             Integer put = Data.put(name, i);
         }
