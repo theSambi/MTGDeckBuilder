@@ -31,11 +31,14 @@ public class CreatureCard extends PermanentCard{
         this.CreatureType = CreatureType;
     }
 
-    public CreatureCard(String CreatureType) {
+    public CreatureCard(String CreatureType, int attack, int defense, String p_name, String p_type, Object[][] p_manaTypes, int p_id) {
+        super(attack, defense, p_name, p_type, p_manaTypes, p_id);
         this.CreatureType = CreatureType;
     }
 
-
-
+    public CreatureCard(String CreatureType, int attack, int defense) {
+        super(attack, defense);
+        this.CreatureType = CreatureType;
+    }
     
 }

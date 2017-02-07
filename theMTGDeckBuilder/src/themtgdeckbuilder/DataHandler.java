@@ -55,7 +55,7 @@ public class DataHandler {
             System.out.println("Name: " + Cards[n].getName());
             System.out.println("Mana: " + mana);
             System.out.println("Type:" + Cards[n].getType());
-            if (Cards[n].getAttack() >= 0){
+            if (Cards[n].getAttack() != null){
                 attAndDef = "";
                 attAndDef += Cards[n].getAttack();  
                 if (Cards[n].getDefense() >= 0){
@@ -68,6 +68,16 @@ public class DataHandler {
             System.out.println("Card number: " + Cards[n].getId() + "/" + Cards[n].getStaticNumberOfCards());
         } else {
             System.out.println("Ei löytynyt kyseistä korttia. Sori.");
+        }
+    }
+    public void listAllAvailableCards(){
+        int length;
+        length = Data.size();
+        System.out.println(length);
+        System.out.println("All available cards:");
+        for (int i = 1; i <= length; i++){
+            Integer tempCard = Data.get(i);
+            System.out.println(i + " " + Cards[i].getName());
         }
     }
 }

@@ -12,6 +12,14 @@ package themtgdeckbuilder;
 public class LandCard extends PermanentCard{
 
     private static String CardType = "Land";
+
+    public LandCard(int attack, int defense, String p_name, String p_type, Object[][] p_manaTypes, int p_id) {
+        super(attack, defense, p_name, p_type, p_manaTypes, p_id);
+    }
+
+    public LandCard(int attack, int defense) {
+        super(attack, defense);
+    }
     
  
 

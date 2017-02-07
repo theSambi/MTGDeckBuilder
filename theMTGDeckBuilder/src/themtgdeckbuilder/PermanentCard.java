@@ -28,5 +28,16 @@ public class PermanentCard extends Card{
     public void setDefense(int p_defense) {
         this.defense = p_defense;
     }
+
+    public PermanentCard(int attack, int defense, String p_name, String p_type, Object[][] p_manaTypes, int p_id) {
+        super(p_name, p_type, p_manaTypes, p_id);
+        this.attack = attack;
+        this.defense = defense;
+    }
+
+    public PermanentCard(int attack, int defense) {
+        this.attack = attack;
+        this.defense = defense;
+    }
     
 }
