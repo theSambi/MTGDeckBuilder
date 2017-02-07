@@ -36,7 +36,7 @@ public class Card {
     public Object[][] getManaTypes(){
         return manaTypes;
     }
-    public String getType() {
+    public String getSuperType() {
         return type;
     }
     public int getId() {
