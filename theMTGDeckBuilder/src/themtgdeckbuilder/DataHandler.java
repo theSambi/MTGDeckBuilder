@@ -5,6 +5,15 @@
  */
 package themtgdeckbuilder;
 
+
+// Nämä tarvitaan, jos haluaa käyttää SAXParseria XML-tiedoston lukemiseen
+/*import javax.xml.parsers.*;
+import org.xml.sax.*;
+import org.xml.sax.helpers.*;
+
+import java.util.*;
+import java.io.*;
+*/
 import java.util.Hashtable;
 
 /**
@@ -16,13 +25,15 @@ public class DataHandler {
   
     private Hashtable<String, Integer> Data = new Hashtable<String, Integer>();
     
+    public static String newline = System.getProperty("line.separator");
+    
     public DataHandler() {
         Cards[0] = new Card();
-        Cards[1] = new Card("Acrobatic Maneuver", "Instant", -1, -1, new Object[][] {{"white",1},{"generic",2}}, 1);
-        Cards[2] = new Card("Aerial Responder", "Creature — Dwarf Soldier", 2, 3, new Object[][] {{"white",2},{"generic",1}}, 2);
-        Cards[3] = new Card("Aetherstorm Roc", "Creature — Bird", 3, 3, new Object[][] {{"white",2},{"generic",2}}, 3);
-        Cards[4] = new Card("Angel of Invention", "Creature — Angel", 2, 1, new Object[][] {{"white",2},{"generic",3}}, 4);
-        Cards[5] = new Card("Authority of the Consuls", "Enchantment", -1, -1, new Object[][] {{"white",1}}, 5);
+        Cards[1] = new Card("Acrobatic Maneuver", "Instant", new Object[][] {{"white",1},{"generic",2}}, 1);
+        Cards[2] = new CreatureCard("Aerial Responder", "Creature — Dwarf Soldier", new Object[][] {{"white",2},{"generic",1}}, 2, 2, 3, "Dwarf Soldier");
+        Cards[3] = new CreatureCard("Aetherstorm Roc", "Creature — Bird", new Object[][] {{"white",2},{"generic",2}}, 3, 3, 3, "Bird");
+        Cards[4] = new CreatureCard("Angel of Invention", "Creature — Angel", new Object[][] {{"white",2},{"generic",3}}, 4, 2, 1, "Angel");
+        Cards[5] = new EnchantmentCard("Authority of the Consuls", "Enchantment", -1, -1, new Object[][] {{"white",1}}, 5);
         
         for(int i = 1; i < Cards.length; i++){
             String name = Cards[i].getName();
@@ -34,16 +45,26 @@ public class DataHandler {
         Integer n = Data.get(p_find);
         if (n != null){
             String mana = "";
+            String attAndDef = null;
             Object[][] temp = Cards[n].getManaTypes();
             for(int i = 0; i < temp.length; i++){
                 // System.out.println("Mana type:" + temp[i][0] + " " + temp[i][1]);
-                mana = temp[i][0] + " " + temp[i][1];
+                mana += newline + temp[i][1] + " " + temp[i][0];
             }
             System.out.println();
             System.out.println("Name: " + Cards[n].getName());
             System.out.println("Mana: " + mana);
             System.out.println("Type:" + Cards[n].getType());
-            System.out.println("A/D" + Cards[n].getAttack() + "/" + Cards[n].getDefense());
+            if (Cards[n].getAttack() >= 0){
+                attAndDef = "";
+                attAndDef += Cards[n].getAttack();  
+                if (Cards[n].getDefense() >= 0){
+                    attAndDef += "/" + Cards[n].getDefense(); 
+                }
+            }
+            if(attAndDef != null){
+                System.out.println("A/D: " + attAndDef);
+            }
             System.out.println("Card number: " + Cards[n].getId() + "/" + Cards[n].getStaticNumberOfCards());
         } else {
             System.out.println("Ei löytynyt kyseistä korttia. Sori.");

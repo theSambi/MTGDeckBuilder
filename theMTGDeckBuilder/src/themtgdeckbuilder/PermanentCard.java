@@ -29,14 +29,4 @@ public class PermanentCard extends Card{
         this.defense = p_defense;
     }
     
-    public PermanentCard(int attack, int defense, String p_name, String p_type, int p_attack, int p_defense, Object[][] p_manaTypes, int p_id) {
-        super(p_name, p_type, p_attack, p_defense, p_manaTypes, p_id);
-        this.attack = attack;
-        this.defense = defense;
-    }
-
-    public PermanentCard(int attack, int defense) {
-        this.attack = attack;
-        this.defense = defense;
-    }
 }

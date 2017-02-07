@@ -10,5 +10,9 @@ package themtgdeckbuilder;
  * @author sambi
  */
 public class LandCard extends PermanentCard{
+
+    private static String CardType = "Land";
     
+ 
+
 }

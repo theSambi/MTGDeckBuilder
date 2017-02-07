@@ -10,28 +10,32 @@ package themtgdeckbuilder;
  * @author sambi
  */
 public class CreatureCard extends PermanentCard{
+    
+    private static String CardType = "Creature";
+    
     private String CreatureType; // Käytetään negatiivisa lukuja määrittämään, jos kortilla ei ole tätä ominaisuutta
 
-    // Getterit
+    public static String getCardType() {
+        return CardType;
+    }
+
     public String getCreatureType() {
         return CreatureType;
     }
 
-    // Setterit
+    public static void setCardType(String CardType) {
+        CreatureCard.CardType = CardType;
+    }
+
     public void setCreatureType(String CreatureType) {
         this.CreatureType = CreatureType;
     }
 
-    //Konstruktorit
-    public CreatureCard(String CreatureType, int attack, int defense, String p_name, String p_type, int p_attack, int p_defense, Object[][] p_manaTypes, int p_id) {
-        super(attack, defense, p_name, p_type, p_attack, p_defense, p_manaTypes, p_id);
+    public CreatureCard(String CreatureType) {
         this.CreatureType = CreatureType;
     }
 
-    public CreatureCard(String CreatureType, int attack, int defense) {
-        super(attack, defense);
-        this.CreatureType = CreatureType;
-    }
-    
+
+
     
 }
