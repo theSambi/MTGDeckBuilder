@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package themtgdeckbuilder.Cards;
+package themtgdeckbuilder;
 
 
 // Nämä tarvitaan, jos haluaa käyttää SAXParseria XML-tiedoston lukemiseen
@@ -15,7 +15,9 @@ import java.util.*;
 import java.io.*;
 */
 import java.util.Hashtable;
-import themtgdeckbuilder.EnchantmentCard;
+import themtgdeckbuilder.Cards.Card;
+import themtgdeckbuilder.Cards.CreatureCard;
+import themtgdeckbuilder.Cards.EnchantmentCard;
 
 /**
  *
