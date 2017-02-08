@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package themtgdeckbuilder;
+package themtgdeckbuilder.Cards;
 
 
 // Nämä tarvitaan, jos haluaa käyttää SAXParseria XML-tiedoston lukemiseen
@@ -15,6 +15,7 @@ import java.util.*;
 import java.io.*;
 */
 import java.util.Hashtable;
+import themtgdeckbuilder.EnchantmentCard;
 
 /**
  *
@@ -33,7 +34,7 @@ public class DataHandler {
         Cards[2] = new CreatureCard("Aerial Responder", "Creature — Dwarf Soldier", new Object[][] {{"white",2},{"generic",1}}, 2, 2, 3, "Dwarf Soldier");
         Cards[3] = new CreatureCard("Aetherstorm Roc", "Creature — Bird", new Object[][] {{"white",2},{"generic",2}}, 3, 3, 3, "Bird");
         Cards[4] = new CreatureCard("Angel of Invention", "Creature — Angel", new Object[][] {{"white",2},{"generic",3}}, 4, 2, 1, "Angel");
-        Cards[5] = new EnchantmentCard("Authority of the Consuls", "Enchantment", -1, -1, new Object[][] {{"white",1}}, 5);
+        Cards[5] = new EnchantmentCard("Authority of the Consuls", "Enchantment", new Object[][] {{"white",1}}, 5,-1,-1);
         
         for(int i = 1; i < Cards.length; i++){
             String name = Cards[i].getName();
@@ -54,14 +55,14 @@ public class DataHandler {
             System.out.println();
             System.out.println("Name: " + Cards[n].getName());
             System.out.println("Mana: " + mana);
-            System.out.println("Type:" + Cards[n].getType());
-            if (Cards[n].getAttack() != null){
+            System.out.println("Type:" + Cards[n].getSuperType());
+            /*if (Cards[n].getAttack() != null){
                 attAndDef = "";
                 attAndDef += Cards[n].getAttack();  
                 if (Cards[n].getDefense() >= 0){
                     attAndDef += "/" + Cards[n].getDefense(); 
                 }
-            }
+            }*/
             if(attAndDef != null){
                 System.out.println("A/D: " + attAndDef);
             }

@@ -1,0 +1,2648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+	<set>
+		<name>KLD</name>
+		<longname>Kaladesh</longname>
+		<settype>Expansion</settype>
+	</set>
+		
+<cards>
+	<card>
+		<name>Cataclysmic Gearhulk</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/cataclysmicgearhulk.jpg">KLD</set>
+		<color>W</color>
+		<manacost>3WW</manacost>
+		<cmc>5</cmc>
+		<type>Artifact Creature - Construct</type>
+		<pt>4/5</pt>
+		<text>Vigilant.When Cataclysmic Gearhulk enters the battlefield, each player chooses from among the non-land permanents he or she controls an artifact, a creature, an enchantment, and a planeswalker, then sacrifices the rest.</text>
+	</card>
+	<card>
+		<name>Torrential Gearhulk</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/torrentialgearhulk.jpg">KLD</set>
+		<color>U</color>
+		<manacost>4UU</manacost>
+		<cmc>6</cmc>
+		<type>Artifact Creature - Construct</type>
+		<pt>5/6</pt>
+		<text>FlashWhen Torrential Gearhulk enters the battlefield, you may cast target instant card from your graveyard without paying its mana cost. If that card would be put into your graveyrad this turn, exile it instead.</text>
+	</card>
+	<card>
+		<name>Noxious Gearhulk</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/noxiousgearhulk1.jpg">KLD</set>
+		<color>B</color>
+		<manacost>4BB</manacost>
+		<cmc>6</cmc>
+		<type>Artifact Creature - Construct</type>
+		<pt>5/4</pt>
+		<text>MenaceWhen Noxious Gearhulk enters the battlefield, you may destroy another target creature. If a creature is destroyed this way, you gain life equal to its toughness.</text>
+	</card>
+	<card>
+		<name>Combustible Gearhulk</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/combustiblegearhulk.jpg">KLD</set>
+		<color>R</color>
+		<manacost>4RR</manacost>
+		<cmc>6</cmc>
+		<type>Artifact Creature - Construct</type>
+		<pt>6/6</pt>
+		<text>First strikeWhen Combustible Gearhulk enters the battlefield, target opponent may have you draw three cards. If the player doesn't, put the top three cards of your library into your graveyard, the Combustible Gearhulk deals damage to that player equal to the total converted mana cost of those cards.</text>
+	</card>
+	<card>
+		<name>Verdurous Gearhulk</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/verdurousgearhulk.jpg">KLD</set>
+		<color>G</color>
+		<manacost>3GG</manacost>
+		<cmc>5</cmc>
+		<type>Artifact Creature - Construct</type>
+		<pt>4/4</pt>
+		<text>TrampleWhen Verdurous Gearhulk enters the battlefield, distribute four +1/+1 counters among any number of target creatures you control.</text>
+	</card>
+	<card>
+		<name>Angel of Invention</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/angelofinvention.jpg">KLD</set>
+		<color>W</color>
+		<manacost>3WW</manacost>
+		<cmc>5</cmc>
+		<type>Creature - Angel</type>
+		<pt>2/1</pt>
+		<text>Flying, vigilance, lifelinkFabricate 2 (When this creature enters the battlefield, put two +1/+1 counters on it or create two 1/1 colorless Servo artifact creature tokens.)Other creatures you control get +1/+1.</text>
+	</card>
+	<card>
+		<name>Metallurgic Summonings</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/metallurgicsummonings.jpg">KLD</set>
+		<color>U</color>
+		<manacost>3UU</manacost>
+		<cmc>5</cmc>
+		<type>Enchantment</type>
+		<text>Whenever you cast an instant or sorcery spell, create an X/X colorless Construct artifact creature token, where X is that spell's converted mana cost.3UU, Exile Metallurgic Summonings: Return all instant and sorcery cards from your graveyard to your hand. Activate this ability only if you control six or more artifacts.</text>
+	</card>
+	<card>
+		<name>Demon of Dark Schemes</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/demonofdarkschemes1.jpg">KLD</set>
+		<color>B</color>
+		<manacost>3BBB</manacost>
+		<cmc>6</cmc>
+		<type>Creature - Demon</type>
+		<pt>5/5</pt>
+		<text>FlyingWhen Demon of Dark Schemes enters the battlefield, all other creatures get -2/-2 until the end of turn.Whenever another creature dies, get E (an energy counter).2B, Pay EEEE: Put target creature card from a graveyard onto the battlefiend under your control tapped.</text>
+	</card>
+	<card>
+		<name>Chandra, Torch of Defiance</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/chandratorchofdefiance.jpg">KLD</set>
+		<color>R</color>
+		<manacost>2RR</manacost>
+		<cmc>4</cmc>
+		<type>Planeswalker - Chandra</type>
+		<pt>[4]</pt>
+		<text>[+1]: Exile the top card of your library. You may cast that card. If you don't, Chandra, Torch of Defiance deals 2 damage to each opponent.[+1]: Add RR to your mana pool.[-3]: Chandra, Torch of Defiance deals 4 damage to target creature.[-7]: You get an emblem with "Whenever you cast a spell, this emblem deals 5 damage to target creature or player."</text>
+	</card>
+	<card>
+		<name>Nissa, Vital Force</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/nissavitalforce.jpg">KLD</set>
+		<color>G</color>
+		<manacost>3GG</manacost>
+		<cmc>5</cmc>
+		<type>Planeswalker - Nissa</type>
+		<pt>[5]</pt>
+		<text>[+1]: Untap target land you control. Until your next turn, it becomes a 5/5 Elemental creature with haste. It's still a land.[-3]: Return target permanent card from your graveyard to your hand.[-6]: You get an emblem with "Whenever a land enters the battlefield under your control, you may draw a card."</text>
+	</card>
+	<card>
+		<name>Toolcraft Exemplar</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/toolcraftexemplar.jpg">KLD</set>
+		<color>W</color>
+		<manacost>W</manacost>
+		<type>Creature - Dwarf Artificer</type>
+		<pt>1/1</pt>
+		<text>At the begining of combat on your turn, if you control an artifact, Toolcraft Exemplar gains +2/+1 until end of turn. If you control three or more artifacts, it also gains first strike until end of turn.</text>
+	</card>
+	<card>
+		<name>Insidious Will</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/insidiouswill.jpg">KLD</set>
+		<color>U</color>
+		<manacost>2UU</manacost>
+		<cmc>4</cmc>
+		<type>Instant</type>
+		<text>Choose one - *Counter target spell.*You may choose new targets for target spell.*Copy target instant or sorcery spell. You may choose new targets for the copy.</text>
+	</card>
+	<card>
+		<name>"Master of Marionettes"</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/masterofmarionettes.jpg">KLD</set>
+		<color>B</color>
+		<manacost>4BB</manacost>
+		<cmc>6</cmc>
+		<type>Creature - Human Artificer</type>
+		<pt>1/3</pt>
+		<text>Fabricate 3 (When this creature enters the battlefield, put three +1/+1 counters on it or create three 1/1 colorless Servo artifact creature tokens.)Whenever an artifact you control is put into a graveyard from the battlefield, target opponent loses life equal to Master of Marionettes power.</text>
+	</card>
+	<card>
+		<name>Madcap Experiment</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/madcapexperiment.jpg">KLD</set>
+		<color>R</color>
+		<manacost>3R</manacost>
+		<cmc>4</cmc>
+		<type>Sorcery</type>
+		<text>Reveal cards from the top of your library until you reveal an artifact card. Put that card onto the battlefield and the rest on the bottom of your library in a random order. Madcap Experiment deals damage to you equal to the number of cards revealed this way.</text>
+	</card>
+	<card>
+		<name>Dubious Challenge</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/dubiouschallenge.jpg">KLD</set>
+		<color>G</color>
+		<manacost>3G</manacost>
+		<cmc>4</cmc>
+		<type>Sorcery</type>
+		<text>Look at the top ten cards of your library, exile up to two target creature cards from among them, then shuffle your library. Target oponnent may choose one of the exiled cards and put into the battlefield under his or her control. Put the rest onto the battlefield under your control.</text>
+	</card>
+	<card>
+		<name>Thriving Ibex</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/thrivingibex.jpg">KLD</set>
+		<color>W</color>
+		<manacost>3W</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Goat</type>
+		<pt>2/4</pt>
+		<text>When Thriving Ibex enters the battlefield, you get EE (two energy counters).Whenever Thriving Ibex attack's you may pay EE. If you do, put a +1/+1 counter on it.</text>
+	</card>
+	<card>
+		<name>Thriving Turtle</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/thrivingturtle.jpg">KLD</set>
+		<color>U</color>
+		<manacost>U</manacost>
+		<type>Creature - Turtle</type>
+		<pt>0/3</pt>
+		<text>When Thriving Turtle enters the battlefield, you get EE (two energy counters).Whenever Thriving Turtle attack's you may pay EE. If you do, put a +1/+1 counter on it.</text>
+	</card>
+	<card>
+		<name>Thriving Rats</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/thrivingrats.jpg">KLD</set>
+		<color>B</color>
+		<manacost>1B</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Rats</type>
+		<pt>1/2</pt>
+		<text>When Thriving Rats enters the battlefield, you get EE (two energy counters).Whenever Thriving Rats attacks, you may pay EE. If you do, put a +1/+1 counter on it.</text>
+	</card>
+	<card>
+		<name>Thriving Grubs</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/thrivinggrubs.jpg">KLD</set>
+		<color>R</color>
+		<manacost>1R</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Gremlin</type>
+		<pt>2/1</pt>
+		<text>When Thriving Grubs enters the battlefield, you get EE (two energy counters).Whenever Thriving Grubs attacks, you may pay EE. If you do, put a +1/+1 counter on it.</text>
+	</card>
+	<card>
+		<name>Thriving Rhino</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/thrivingrhino.jpg">KLD</set>
+		<color>G</color>
+		<manacost>2G</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Rhino</type>
+		<pt>2/3</pt>
+		<text>When Thriving Rhino enters the battlefield, you get EE (two energy counters).Whenever Thriving Rhino attacks, you may pay EE. If you do, put a +1/+1 counter on it.</text>
+	</card>
+	<card>
+		<name>Fumigate</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/fumigate.jpg">KLD</set>
+		<color>W</color>
+		<manacost>3WW</manacost>
+		<cmc>5</cmc>
+		<type>Sorcery</type>
+		<text>Destroy all creatures. You gain 1 life for each creature destroyed this way.</text>
+	</card>
+	<card>
+		<name>Captured by the Consulate</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/capturedbytheconsulate.jpg">KLD</set>
+		<color>W</color>
+		<manacost>3W</manacost>
+		<cmc>4</cmc>
+		<type>Enchantment - Aura</type>
+		<text>Enchant creature you don't control. Enchanted creature can't attack.Whenever an opponent casts a spell, if it has a single target, change the target to enchanted creature if able.</text>
+	</card>
+	<card>
+		<name>Master Trinketeer</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/mastertrinketeer.jpg">KLD</set>
+		<color>W</color>
+		<manacost>2W</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Dwarf Artificer</type>
+		<pt>3/2</pt>
+		<text>Servo and thopter creatures you control get +1/+1.3W: Create a 1/1 colorless Servo artifact creature token.</text>
+	</card>
+	<card>
+		<name>Authority of the Consuls</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/authorityoftheconsuls.jpg">KLD</set>
+		<color>W</color>
+		<manacost>W</manacost>
+		<type>Enchantment</type>
+		<text>Creatures your opponents control enter the battlefield tapped.Whenever a creature enters the battlefield under an opponents control, you gain 1 life.</text>
+	</card>
+	<card>
+		<name>Aetherstorm Roc</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/aetherstormroc.jpg">KLD</set>
+		<color>W</color>
+		<manacost>2WW</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Bird</type>
+		<pt>3/3</pt>
+		<text>FlyingWhenever Aetherstorm Roc or another creature enters the battlefield under your control, you get E (an energy counter).Whenever Aetherstorm Roc attacks, you may pay EE. If you do, put a +1/+1 counter on it and tap up to one target creature defending player controls.</text>
+	</card>
+	<card>
+		<name>Consul's Shieldguard</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/consulsshieldguard.jpg">KLD</set>
+		<color>W</color>
+		<manacost>3W</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Dwarf Soldier</type>
+		<pt>3/4</pt>
+		<text>When Consul's Shieldguard enters the battlefield, you get EE (two energy counters).Whenever Consul's Shieldguard attacks, you may pay E. If you do, another target attacking creature gains indestructible until end of turn.</text>
+	</card>
+	<card>
+		<name>Gearshift Ace</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/gearshiftace.jpg">KLD</set>
+		<color>W</color>
+		<manacost>1W</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Dwarf Pilot</type>
+		<pt>2/1</pt>
+		<text>First strikeWhenever Gearshift Ace crews a Vehicle, that Vehicle gains first strike until end of turn.</text>
+	</card>
+	<card>
+		<name>Trusty Companion</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/trustycompanion.jpg">KLD</set>
+		<color>W</color>
+		<manacost>1W</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Hyena</type>
+		<pt>3/2</pt>
+		<text>VigilanceTrusty Companion can't attack alone.</text>
+	</card>
+	<card>
+		<name>Servo Exhibition</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/servoexhibition.jpg">KLD</set>
+		<color>W</color>
+		<manacost>1W</manacost>
+		<cmc>2</cmc>
+		<type>Sorcery</type>
+		<text>Create two 1/1 colorless Servo artifact creature tokens.</text>
+	</card>
+	<card>
+		<name>Visionary Augmenter</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/visionaryaugmenter.jpg">KLD</set>
+		<color>W</color>
+		<manacost>2WW</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Dwarf Artificer</type>
+		<pt>2/1</pt>
+		<text>Fabricate 2 (When this creature enters the battlefield, put two +1/+1 counters on it or create two 1/1 colorless Servo artifact creature tokens.</text>
+	</card>
+	<card>
+		<name>Fairgrounds Warden</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/fairgroundswarden.jpg">KLD</set>
+		<color>W</color>
+		<manacost>2W</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Dwarf Soldier</type>
+		<pt>1/3</pt>
+		<text>When Fairgrounds Warden enters the battlefield, exile target creature an opponent controls until Fairgrounds Warden leaves the battlefield.</text>
+	</card>
+	<card>
+		<name>Refurbish</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/refurbish.jpg">KLD</set>
+		<color>W</color>
+		<manacost>3W</manacost>
+		<cmc>4</cmc>
+		<type>Sorcery</type>
+		<text>Return target artifact card from your graveyard to the battlefield.</text>
+	</card>
+	<card>
+		<name>Skywhaler's Shot</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/skywhalersshot.jpg">KLD</set>
+		<color>W</color>
+		<manacost>2W</manacost>
+		<cmc>3</cmc>
+		<type>Instant</type>
+		<text>Destroy target creature with power 3 or greater. Scry 1.</text>
+	</card>
+	<card>
+		<name>Consulate Surveillance</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/consulatesurveillance.jpg">KLD</set>
+		<color>W</color>
+		<manacost>3W</manacost>
+		<cmc>4</cmc>
+		<type>Enchantment</type>
+		<text>When Consulate Surveillance enters the battlefield, you get EEEE (four energy counters)Pay EE: Prevent all damage that would be dealt to you this turn by a source of you choice.</text>
+	</card>
+	<card>
+		<name>Wispweaver Angel</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/wispweaverangel.jpg">KLD</set>
+		<color>W</color>
+		<manacost>4WW</manacost>
+		<cmc>6</cmc>
+		<type>Creature - Angel</type>
+		<pt>4/4</pt>
+		<text>FlyingWhen Wispweaver Angel enters the battlefield, you may exile another target creature you control, then return that card to the battlefield under its owner's control.</text>
+	</card>
+	<card>
+		<name>Aerial Responder</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/aerialresponder.jpg">KLD</set>
+		<color>W</color>
+		<manacost>1WW</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Dwarf Soldier</type>
+		<pt>2/3</pt>
+		<text>Flying, vigilance, lifelink</text>
+	</card>
+	<card>
+		<name>Eddytrail Hawk</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/eddytrailhawk.jpg">KLD</set>
+		<color>W</color>
+		<manacost>1W</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Bird</type>
+		<pt>1/2</pt>
+		<text>FlyingWhen Eddytrail Hawk enters the battlefield, you get EE (two energy counters).Whenever Eddytrail Hawk attacks, you may pay E. If you do, another target attacking creature gains flying until end of turn.</text>
+	</card>
+	<card>
+		<name>Built to Last</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/builttolast.jpg">KLD</set>
+		<color>W</color>
+		<manacost>W</manacost>
+		<type>Instant</type>
+		<text>Target creature gets +2/+2 until end of turn. If it's an artifact creature, it gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)</text>
+	</card>
+	<card>
+		<name>Pressure Point</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/pressurepoint.jpg">KLD</set>
+		<color>W</color>
+		<manacost>1W</manacost>
+		<cmc>2</cmc>
+		<type>Instant</type>
+		<text>Tap target creature.Draw a card.</text>
+	</card>
+	<card>
+		<name>Ninth Bridge Patrol</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/ninthbridgepatrol.jpg">KLD</set>
+		<color>W</color>
+		<manacost>1W</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Dwarf Soldier</type>
+		<pt>1/1</pt>
+		<text>Whenever another creature you control leaves the battlefield, put a +1/+1 counter on Ninth Bridge Patrol.</text>
+	</card>
+	<card>
+		<name>Herald of the Fair</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/heraldofthefair.jpg">KLD</set>
+		<color>W</color>
+		<manacost>2W</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Human</type>
+		<pt>3/2</pt>
+		<text>When Herald of the Fair enters the battlefield, target creature you controls gets +1/+1 until end of turn.</text>
+	</card>
+	<card>
+		<name>Skyswirl Harrier</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/skyswirlharrier.jpg">KLD</set>
+		<color>W</color>
+		<manacost>4W</manacost>
+		<cmc>5</cmc>
+		<type>Creature - Bird</type>
+		<pt>3/4</pt>
+		<text>Flying</text>
+	</card>
+	<card>
+		<name>Revoke Privileges</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/revokeprivileges.jpg">KLD</set>
+		<color>W</color>
+		<manacost>2W</manacost>
+		<cmc>3</cmc>
+		<type>Enchantment - Aura</type>
+		<text>Enchant creatureEnchanted creature can't attack, block, or crew Vehicles.</text>
+	</card>
+	<card>
+		<name>Aviary Mechanic</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/aviarymechanic.jpg">KLD</set>
+		<color>W</color>
+		<manacost>1W</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Dwarf Artificer</type>
+		<pt>2/2</pt>
+		<text>When Aviary Mechanic enters the battlefield, you may return another permanent you control to its owner's hand.</text>
+	</card>
+	<card>
+		<name>Impeccable Timing</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/impeccabletiming.jpg">KLD</set>
+		<color>W</color>
+		<manacost>1W</manacost>
+		<cmc>2</cmc>
+		<type>Instant</type>
+		<text>Impeccable Timing deals 3 damage to target attacking or blocking creature.</text>
+	</card>
+	<card>
+		<name>Inspired Charge</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/inspiredcharge.jpg">KLD</set>
+		<color>W</color>
+		<manacost>2WW</manacost>
+		<cmc>4</cmc>
+		<type>Instant</type>
+		<text>Creatures you control get +2/+1 until end of turn.</text>
+	</card>
+	<card>
+		<name>Fragmentize</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/fragmentize.jpg">KLD</set>
+		<color>W</color>
+		<manacost>W</manacost>
+		<type>Sorcery</type>
+		<text>Destory target artifact of enchantment with converted mana cost 4 or less.</text>
+	</card>
+	<card>
+		<name>Aerial Gatherer</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/whiteflicker.jpg">KLD</set>
+		<color>W</color>
+		<manacost>2W</manacost>
+		<cmc>3</cmc>
+		<type>Instant</type>
+		<text>Exile target creature you control, then return it to the battlefield under its owner's control.Draw a card.</text>
+	</card>
+	<card>
+		<name>Tasseled Dromedary</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/tasseleddromedary.jpg">KLD</set>
+		<color>W</color>
+		<manacost>W</manacost>
+		<type>Creature - Camel</type>
+		<pt>0/4</pt>
+		<text />
+	</card>
+	<card>
+		<name>Glint-Sleeve Artisan</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/glintsleeveartisan.jpg">KLD</set>
+		<color>W</color>
+		<manacost>2W</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Dwarf Artificer</type>
+		<pt>2/2</pt>
+		<text>Fabricate 1 (When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.)</text>
+	</card>
+	<card>
+		<name>Propeller Pioneer</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/propellerpioneer.jpg">KLD</set>
+		<color>W</color>
+		<manacost>3W</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Human Artificer</type>
+		<pt>2/1</pt>
+		<text>FlyingFabricate 1 (When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless  Servo artifact creature token.)</text>
+	</card>
+	<card>
+		<name>Confiscation Coup</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/confiscationcoup.jpg">KLD</set>
+		<color>U</color>
+		<manacost>3UU</manacost>
+		<cmc>5</cmc>
+		<type>Sorcery</type>
+		<text>Choose target artifact or creature. You get EEEE (four energy counters), then you may pay an amount of E equal to that permanent's converted mana cost. If you do, gain control of it.</text>
+	</card>
+	<card>
+		<name>Aethersquall Ancient</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/aethersquallancient.jpg">KLD</set>
+		<color>U</color>
+		<manacost>5UU</manacost>
+		<cmc>7</cmc>
+		<type>Creature - Leviathan</type>
+		<pt>6/6</pt>
+		<text>FlyingAt the beginning of your upkeep, you get EEE (three energy counters).Pay EEEEEEEE: Return all other creatures to their owner's hands. Activate this ability only any time you could cast a sorcery.</text>
+	</card>
+	<card>
+		<name>Paradoxical Outcome</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/paradoxicaloutcome.jpg">KLD</set>
+		<color>U</color>
+		<manacost>3U</manacost>
+		<cmc>4</cmc>
+		<type>Instant</type>
+		<text>Return any number of target nonland, nontoken permanents you control to their owners' hands. Draw a card for each card returned to your hand this way.</text>
+	</card>
+	<card>
+		<name>Padeem, Consul of Innovation</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/padeemconsulofinnovation.jpg">KLD</set>
+		<color>U</color>
+		<manacost>3U</manacost>
+		<cmc>4</cmc>
+		<type>Legendary Creature - Vealkin Artificer</type>
+		<pt>1/4</pt>
+		<text>Artifacts you control have hexproof.At the beginning of your upkeep, if you control the artifact with the highest converted mana cost or tied for the highest converted mana cost, draw a card.</text>
+	</card>
+	<card>
+		<name>Saheeli's Artistry</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/saheelisartistry.jpg">KLD</set>
+		<color>U</color>
+		<manacost>4UU</manacost>
+		<cmc>6</cmc>
+		<type>Sorcery</type>
+		<text>Choose one or both--*Create a token that's a copy of target artifact.*Create a token that's a copy of target creature, except it's an artifact in addition to its other types.</text>
+	</card>
+	<card>
+		<name>Janjeet Sentry</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/janjeetsentry.jpg">KLD</set>
+		<color>U</color>
+		<manacost>2U</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Vedalken Soldier</type>
+		<pt>2/3</pt>
+		<text>When Janjeet Sentry enters the battlefield, you get EE (two energy counters).T, Pay EE: You may tap or untap target artifact or creature.</text>
+	</card>
+	<card>
+		<name>Glimmer of Genius</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/glimmerofgenius.jpg">KLD</set>
+		<color>U</color>
+		<manacost>3U</manacost>
+		<cmc>4</cmc>
+		<type>Instant</type>
+		<text>Scry 2, then draw two cards. You get EE (two energy counters).</text>
+	</card>
+	<card>
+		<name>Minister of Inquiries</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/ministerofinquiries.jpg">KLD</set>
+		<color>U</color>
+		<manacost>U</manacost>
+		<type>Creature - Vedalken Advisor</type>
+		<pt>1/2</pt>
+		<text>When Minister of Inquiries enters the battlefield, you get EE (two energy counters).T, Pay E: Target player puts the top three cards of his or her library into his or her graveyard.</text>
+	</card>
+	<card>
+		<name>Aether Meltdown</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/aethermeltdown.jpg">KLD</set>
+		<color>U</color>
+		<manacost>1U</manacost>
+		<cmc>2</cmc>
+		<type>Enchantment - Aura</type>
+		<text>Flash (You may cast this spell any time you could cast an instant.)Enchant creature or VehicleWhen Aether Meltdown enters the battlefield, you get EE (two energy counters).Enchanted permanent gets -4/-0.</text>
+	</card>
+	<card>
+		<name>Era of Innovation</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/eraofinnovation.jpg">KLD</set>
+		<color>U</color>
+		<manacost>1U</manacost>
+		<cmc>2</cmc>
+		<type>Enchantment</type>
+		<text>Whenever an artifact or creature enters the battlefield under your control, you may pay 1. If you do, get EE. (two energy counters.)EEEEEE, sacrifice Era of Innovation: Draw three cards.</text>
+	</card>
+	<card>
+		<name>Experimental Aviator</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/experimentalaviator.jpg">KLD</set>
+		<color>U</color>
+		<manacost>3UU</manacost>
+		<cmc>5</cmc>
+		<type>Creature - Human Artificer</type>
+		<pt>0/3</pt>
+		<text>FlyingWhen Experimental Aviator enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.</text>
+	</card>
+	<card>
+		<name>Dissappearing Act</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/disappearingact.jpg">KLD</set>
+		<color>U</color>
+		<manacost>1UU</manacost>
+		<cmc>3</cmc>
+		<type>Instant</type>
+		<text>As an additional cost to cast Disappearing Act, return a permanent you control to its owner's hand.Counter target spell.</text>
+	</card>
+	<card>
+		<name>Long-Finned Skywhale</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/longfinnedskywhale.jpg">KLD</set>
+		<color>U</color>
+		<manacost>2UU</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Whale</type>
+		<pt>4/3</pt>
+		<text>FlyingLong-Finned Skywhale can block only creatures with flying.</text>
+	</card>
+	<card>
+		<name>Glint-nest Crane</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/glintnestcrane.jpg">KLD</set>
+		<color>U</color>
+		<manacost>1U</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Bird</type>
+		<pt>1/3</pt>
+		<text>FlyingWhen Glint-nest Crane enters the battlefield, look at the top four cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</text>
+	</card>
+	<card>
+		<name>Shrewd Negotiation</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/shrewdnegotiation.jpg">KLD</set>
+		<color>U</color>
+		<manacost>4U</manacost>
+		<cmc>5</cmc>
+		<type>Sorcery</type>
+		<text>Exchange control of target artifact you control and target artifact or creature you don't control.</text>
+	</card>
+	<card>
+		<name>Ceremonious Rejection</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/ceremoniousrejection.jpg">KLD</set>
+		<color>U</color>
+		<manacost>U</manacost>
+		<type>Instant</type>
+		<text>Counter target colorless spell.</text>
+	</card>
+	<card>
+		<name>Gearseeker Serpent</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/gearseekerserpent.jpg">KLD</set>
+		<color>U</color>
+		<manacost>5UU</manacost>
+		<cmc>7</cmc>
+		<type>Creature - Serpent</type>
+		<pt>5/6</pt>
+		<text>Gearseeker Serpent costs 1 less to cast for each artifact you control.5U: Gearseeker Serpent can't be blocked this turn.</text>
+	</card>
+	<card>
+		<name>Failed Inspection</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/failedinspection.jpg">KLD</set>
+		<color>U</color>
+		<manacost>2UU</manacost>
+		<cmc>4</cmc>
+		<type>Instant</type>
+		<text>Counter target spell. Draw a card, then discard a card.</text>
+	</card>
+	<card>
+		<name>Dramatic Reversal</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/dramaticreversal.jpg">KLD</set>
+		<color>U</color>
+		<manacost>1U</manacost>
+		<cmc>2</cmc>
+		<type>Instant</type>
+		<text>Untap all nonland permanents you control.</text>
+	</card>
+	<card>
+		<name>Aether Theorist</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/aethertheorist.jpg">KLD</set>
+		<color>U</color>
+		<manacost>1U</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Vedalken Rogue</type>
+		<pt>1/3</pt>
+		<text>When Aether Theorist enters the battlefield, you get EEE (three energy counters).T, Pay E: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)</text>
+	</card>
+	<card>
+		<name>Malfunction</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/malfunction.jpg">KLD</set>
+		<color>U</color>
+		<manacost>3U</manacost>
+		<cmc>4</cmc>
+		<type>Enchantment - Aura</type>
+		<text>Enchant artifact or creatureWhen Malfunction enters the battlefield, tap enchanted permanent.Enchanted permanent doesn't untap during its controller's untap step.</text>
+	</card>
+	<card>
+		<name>Hightide Hermit</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/hightidehermit.jpg">KLD</set>
+		<color>U</color>
+		<manacost>4U</manacost>
+		<cmc>5</cmc>
+		<type>Creature - Crab</type>
+		<pt>4/4</pt>
+		<text>DefenderWhen Hightide Hermit enters the battlefield, you get EEEE (four energy counters).Pay EE: Hightide Hermit can attack this turn as though it didn't have defender.</text>
+	</card>
+	<card>
+		<name>Vedalken Blademaster</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/vedalkenblademaster.jpg">KLD</set>
+		<color>U</color>
+		<manacost>2U</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Vedalken Soldier</type>
+		<pt>2/3</pt>
+		<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</text>
+	</card>
+	<card>
+		<name>Select for Inspection</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/selectforinspection.jpg">KLD</set>
+		<color>U</color>
+		<manacost>U</manacost>
+		<type>Instant</type>
+		<text>Return target tapped creature to its owner's hand. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)</text>
+	</card>
+	<card>
+		<name>Revolutionary Rebuff</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/revolutionaryrebuff.jpg">KLD</set>
+		<color>U</color>
+		<manacost>1U</manacost>
+		<cmc>2</cmc>
+		<type>Instant</type>
+		<text>Counter target nonartifact spell unless its controller pays 2.</text>
+	</card>
+	<card>
+		<name>Wind Drake</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/winddrake.jpg">KLD</set>
+		<color>U</color>
+		<manacost>2U</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Drake</type>
+		<pt>2/2</pt>
+		<text>Flying</text>
+	</card>
+	<card>
+		<name>Nimble Innovator</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/nimbleinnovator.jpg">KLD</set>
+		<color>U</color>
+		<manacost>3U</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Vedalken Artificer</type>
+		<pt>2/2</pt>
+		<text>When Nimble Innovator enters the battlefield, draw a card.</text>
+	</card>
+	<card>
+		<name>Weldfast Wingsmith</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/weldfastwingsmith.jpg">KLD</set>
+		<color>U</color>
+		<manacost>3U</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Human Artificer</type>
+		<pt>3/3</pt>
+		<text>Whenever an artifact enters the battlefield under your control, Weldfast Wingsmith gains flying until end of turn.</text>
+	</card>
+	<card>
+		<name>Tezzeret's Ambition</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/tezzeretsambition.jpg">KLD</set>
+		<color>U</color>
+		<manacost>3UU</manacost>
+		<cmc>5</cmc>
+		<type>Sorcery</type>
+		<text>Draw three cards. If you control no artifacts, discard a card.</text>
+	</card>
+	<card>
+		<name>Curio Vendor</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/curiovendor1.jpg">KLD</set>
+		<color>U</color>
+		<manacost>1U</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Vedalken</type>
+		<pt>2/1</pt>
+		<text />
+	</card>
+	<card>
+		<name>Aether Tradewinds</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/aethertradewinds.jpg">KLD</set>
+		<color>U</color>
+		<manacost>2U</manacost>
+		<cmc>3</cmc>
+		<type>Instant</type>
+		<text>Return target permanent you control and target permanent you don't control to their owner's hands.</text>
+	</card>
+	<card>
+		<name>Syndicate Trafficker</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/syndicatetrafficker.jpg">KLD</set>
+		<color>B</color>
+		<manacost>1B</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Aetherborn Rogue</type>
+		<pt>3/1</pt>
+		<text>1, Sacrifice an artifact: Put a +1/+1 counter on Syndicate Trafficker. It gains indestructible until end of turn.</text>
+	</card>
+	<card>
+		<name>Gonti, Lord of Luxury</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/gontilordofluxury.jpg">KLD</set>
+		<color>B</color>
+		<manacost>2BB</manacost>
+		<cmc>4</cmc>
+		<type>Legendary Creature - Aetherborn Rogue</type>
+		<pt>2/3</pt>
+		<text>DeathtouchWhen Gonti, Lord of Luxury enters the battlefield, look at the top four cards of target opponent's library, exile one of them face down, then put the rest on the bottom of that library in a random order. For as long as that card remains exiled, you may look at it, you may cast it, and your may spend mana as though it were mana of any type to cast it.</text>
+	</card>
+	<card>
+		<name>Eliminate the Competition</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/eliminatethecompetition.jpg">KLD</set>
+		<color>B</color>
+		<manacost>4B</manacost>
+		<cmc>5</cmc>
+		<type>Sorcery</type>
+		<text>As an additional cost to cast Eliminate the Competition, sacrifice X creatures. Destroy X target creatures.</text>
+	</card>
+	<card>
+		<name>Midnight Oil</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/midnightoil.jpg">KLD</set>
+		<color>B</color>
+		<manacost>2BB</manacost>
+		<cmc>4</cmc>
+		<type>Enchantment</type>
+		<text>Midnight Oil enters the battlefield with seven hour counters on it. At the beginning of your draw step, draw an additional card and remove two hour counters from Midnight Oil. Your maximum hand size is equal to the number of hour counters on Midnight Oil. Whenever you discard a card, you lose 1 life.</text>
+	</card>
+	<card>
+		<name>Lost Legacy</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/lostlegacy.jpg">KLD</set>
+		<color>B</color>
+		<manacost>1BB</manacost>
+		<cmc>3</cmc>
+		<type>Sorcery</type>
+		<text>Name a nonartifact, nonland card. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles his or her library, then draws a card for each card exiled from hand this way.</text>
+	</card>
+	<card>
+		<name>Diabolic Tutor</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/diabolictutor.jpg">KLD</set>
+		<color>B</color>
+		<manacost>2BB</manacost>
+		<cmc>4</cmc>
+		<type>Sorcery</type>
+		<text>Search your library for a card and put that card into your hand. Then shuffle your library.</text>
+	</card>
+	<card>
+		<name>Harsh Scrutiny</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/harshscrutiny.jpg">KLD</set>
+		<color>B</color>
+		<manacost>B</manacost>
+		<type>Sorcery</type>
+		<text>Target opponent reveals his or her hand. You choose a creature card from it. That player discards that card. Scry 1.</text>
+	</card>
+	<card>
+		<name>Fretwork Colony</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/fretworkcolony.jpg">KLD</set>
+		<color>B</color>
+		<manacost>1B</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Insect</type>
+		<pt>1/1</pt>
+		<text>Fretwork Colony can't block. At the beginning of your upkeep, put a +1/+1 counter on Fretwork Colony and you lose 1 life.</text>
+	</card>
+	<card>
+		<name>Embraal Bruiser</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/embraalbruiser.jpg">KLD</set>
+		<color>B</color>
+		<manacost>1B</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Human Warrior</type>
+		<pt>3/1</pt>
+		<text>Embraal Bruiser enters the battlefield tapped. Embraal Bruiser has menace as long as you control an artifact.</text>
+	</card>
+	<card>
+		<name>Make Obsolete</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/makeobsolete.jpg">KLD</set>
+		<color>B</color>
+		<manacost>2B</manacost>
+		<cmc>3</cmc>
+		<type>Instant</type>
+		<text>Creatures you control get -1/-1 until end of turn.</text>
+	</card>
+	<card>
+		<name>Weaponcraft Enthusiast</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/weaponcraftenthusiast.jpg">KLD</set>
+		<color>B</color>
+		<manacost>2B</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Aetherborn Artificer</type>
+		<pt>0/1</pt>
+		<text>Fabricate 2 (When this creature enters the battlefield, put two +1/+1 counters on it or create two 1/1 colorless Servo artifact creature tokens.)</text>
+	</card>
+	<card>
+		<name>Aetherborn Marauder</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/aetherbornmarauder.jpg">KLD</set>
+		<color>B</color>
+		<manacost>3B</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Aetherborn Rogue</type>
+		<pt>2/2</pt>
+		<text>Flying, lifelinkWhen Aetherborn Marauder enters the battlefield, move any number of +1/+1 counters from other permanents you control onto Aetherborn Marauder.</text>
+	</card>
+	<card>
+		<name>Underhanded Designs</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/underhandeddesigns.jpg">KLD</set>
+		<color>B</color>
+		<manacost>1B</manacost>
+		<cmc>2</cmc>
+		<type>Enchantment</type>
+		<text>Whenever an artifact enters the battlefield under your control, you may pay 1. If you do, each opponent loses 1 life and you gain 1 life. 1B, Sacrifice Underhanded Designs: Destroy target creature. Activate this ability only if you control two or more artifacts.</text>
+	</card>
+	<card>
+		<name>Morbid Curiosity</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/morbidcuriosity.jpg">KLD</set>
+		<color>B</color>
+		<manacost>1BB</manacost>
+		<cmc>3</cmc>
+		<type>Sorcery</type>
+		<text>As an additional to cast Morbid Curiosity, sacrifice an artifact or creature.</text>
+	</card>
+	<card>
+		<name>Essence Extraction</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/essenceextraction.jpg">KLD</set>
+		<color>B</color>
+		<manacost>1BB</manacost>
+		<cmc>3</cmc>
+		<type>Instant</type>
+		<text>Essence Extraction deals 3 damage to target creature and you gain 3 life.</text>
+	</card>
+	<card>
+		<name>Ovalchase Daredevil</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/ovalchasedaredevil.jpg">KLD</set>
+		<color>B</color>
+		<manacost>3B</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Human Pilot</type>
+		<pt>4/2</pt>
+		<text>Whenever an artifact enters the battlefield under your control, you may return Ovalchase Daredevil from your graveyard to your hand.</text>
+	</card>
+	<card>
+		<name>Dukhara Scavenger</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/dukharascavenger.jpg">KLD</set>
+		<color>B</color>
+		<manacost>5B</manacost>
+		<cmc>6</cmc>
+		<type>Creature - Crocodile</type>
+		<pt>4/6</pt>
+		<text>When Dukhara Scavenger enters the battlefield, you may put target artifact creature card from your graveyard on top of your library.</text>
+	</card>
+	<card>
+		<name>Dhund Operative</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/dhundoperative.jpg">KLD</set>
+		<color>B</color>
+		<manacost>1B</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Human Rogue</type>
+		<pt>2/2</pt>
+		<text>As long as you control an artifact, Dhund Operative gets +1/+0 and has deathtouch.</text>
+	</card>
+	<card>
+		<name>Foundry Screecher</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/foundryscreecher.jpg">KLD</set>
+		<color>B</color>
+		<manacost>2B</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Bat</type>
+		<text>FlyingFoundry Screecher gets +1/+0 as long as you control an artifact.</text>
+	</card>
+	<card>
+		<name>Rush of Vitality</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/rushofvitality.jpg">KLD</set>
+		<color>B</color>
+		<manacost>1B</manacost>
+		<cmc>2</cmc>
+		<type>Instant</type>
+		<text>Target creature gets +1/+0 and gains lifelink and indestructible until end of turn.</text>
+	</card>
+	<card>
+		<name>Night Market Lookout</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/nightmarketlookout.jpg">KLD</set>
+		<color>B</color>
+		<manacost>B</manacost>
+		<type>Creature - Human Rogue</type>
+		<pt>1/1</pt>
+		<text>Whenever Night Market Lookout becomes tapped, each opponent loses 1 life and you gain 1 life.</text>
+	</card>
+	<card>
+		<name>Mind Rot</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/mindrot.jpg">KLD</set>
+		<color>B</color>
+		<manacost>2B</manacost>
+		<cmc>3</cmc>
+		<type>Sorcery</type>
+		<text>Target player discards two cards.</text>
+	</card>
+	<card>
+		<name>Tidy Conclusion</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/tidyconclusion.jpg">KLD</set>
+		<color>B</color>
+		<manacost>3BB</manacost>
+		<cmc>5</cmc>
+		<type>Instant</type>
+		<text>Destroy target creature. You gain 1 life for each artifact you control.</text>
+	</card>
+	<card>
+		<name>Subtle Strike</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/subtlestrike.jpg">KLD</set>
+		<color>B</color>
+		<manacost>1B</manacost>
+		<cmc>2</cmc>
+		<type>Instant</type>
+		<text>Choose one or both - *Target creature gets -1/-1 until end of turn.*Put a +1/+1 counter on target creature.</text>
+	</card>
+	<card>
+		<name>Ambitious Aetherborn</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/ambitiousaetherborn.jpg">KLD</set>
+		<color>B</color>
+		<manacost>4B</manacost>
+		<cmc>5</cmc>
+		<type>Creature - Aetherborn Artificer</type>
+		<pt>4/3</pt>
+		<text>Fabricate 1 (When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.)</text>
+	</card>
+	<card>
+		<name>Maulfist Squad</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/maulfistsquad.jpg">KLD</set>
+		<color>B</color>
+		<manacost>3B</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Human Artificer</type>
+		<pt>3/1</pt>
+		<text>MenaceFabricate 1 (When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.)</text>
+	</card>
+	<card>
+		<name>Prakhata Club Secruity</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/prakhataclubsecruity.jpg">KLD</set>
+		<color>B</color>
+		<manacost>3B</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Aetherborn Warrior</type>
+		<pt>3/4</pt>
+		<text />
+	</card>
+	<card>
+		<name>Lawless Broker</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/lawlessbroker.jpg">KLD</set>
+		<color>B</color>
+		<manacost>2B</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Aetherborn Rogue</type>
+		<pt>3/2</pt>
+		<text>When Lawless Broker dies, put a +1/+1 counter on target creature you control.</text>
+	</card>
+	<card>
+		<name>Fortuitous Find</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/fortuitousfind.jpg">KLD</set>
+		<color>B</color>
+		<manacost>2B</manacost>
+		<cmc>3</cmc>
+		<type>Sorcery</type>
+		<text>Choose one or both - *Return target artifact card from your graveyard to your hand.*Return target creature card from your graveyard to your hand.</text>
+	</card>
+	<card>
+		<name>Live Fast</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/livefast.jpg">KLD</set>
+		<manacost>Sorcery</manacost>
+		<cmc>7</cmc>
+		<type>Sorcery</type>
+		<text>You draw two cards, lose 2 life, and get EE (two energy counters).</text>
+	</card>
+	<card>
+		<name>Die Young</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/dieyoung.jpg">KLD</set>
+		<color>B</color>
+		<manacost>1B</manacost>
+		<cmc>2</cmc>
+		<type>Sorcery</type>
+		<text>Choose target creature. You get EE (two energy counters), then you may pay any amount of E. The creature gets -1/-1 until end of turn for each E paid this way.</text>
+	</card>
+	<card>
+		<name>Fateful Showdown</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/fatefulshowdown.jpg">KLD</set>
+		<color>R</color>
+		<manacost>2RR</manacost>
+		<cmc>4</cmc>
+		<type>Instant</type>
+		<text>Fateful Showdown deals damage to target creature or player equal to the number of cards in your hand. Discard all the cards in your hand, then draw that many cards.</text>
+	</card>
+	<card>
+		<name>Lathnu Hellion</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/lathnuhellion.jpg">KLD</set>
+		<color>R</color>
+		<manacost>2R</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Hellion</type>
+		<pt>4/4</pt>
+		<text>HasteWhen Lathnu Hellion enters the battlefield, you get EE (two energy counters).At the beginning of your end step, sacrifice Lathnu Hellion unless you pay EE.</text>
+	</card>
+	<card>
+		<name>Pia Nalaar</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/pianalaar.jpg">KLD</set>
+		<color>R</color>
+		<manacost>2R</manacost>
+		<cmc>3</cmc>
+		<type>Legendary Creature - Human Artificer</type>
+		<pt>2/2</pt>
+		<text>When Pia Nalaar enters the battlefield, create a 1/1 colorless Thopter artifact creature token with flying.1R: Target artifact creature gets +1/+0 until end of turn.1, Sacrifice an artifact: Target creature can't block this turn.</text>
+	</card>
+	<card>
+		<name>Territorial Gorger</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/territorialgorger.jpg">KLD</set>
+		<color>R</color>
+		<manacost>3R</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Gremlin</type>
+		<pt>2/2</pt>
+		<text>TrampleWhenever you gain one or more E (one energy counter), Territorial Gorger gets +2/+2 until end of turn.</text>
+	</card>
+	<card>
+		<name>Skyship Stalker</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/skyshipstalker.jpg">KLD</set>
+		<color>W</color>
+		<manacost>2WW</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Dragon</type>
+		<pt>3/3</pt>
+		<text>FlyingR: Skyship Stalker gets +1/+0 until end of turn.R: Skyship Stalker gains first strike until end of turn.R: Skyship Stalker gains haste until end of turn.</text>
+	</card>
+	<card>
+		<name>Aethertorch Renegade</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/aethertorchrenegade.jpg">KLD</set>
+		<color>R</color>
+		<manacost>2R</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Human Rogue</type>
+		<pt>1/2</pt>
+		<text>When Aethertorch Renegade enters the battlefield, you get EEEE.T, Pay EE: Aethertorch Renegade deals 1 damage to target creature.T, Pay EEEEEEEE: Aethertorch Renegade deals 6 damage to target player.</text>
+	</card>
+	<card>
+		<name>Quicksmith Genius</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/quicksmithgenius.jpg">KLD</set>
+		<color>R</color>
+		<manacost>2R</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Human ArtificerWhenever an artifact enters the battlefield under your control, you may discard a card. If you do, draw a card.</type>
+		<pt>3/2</pt>
+		<text />
+	</card>
+	<card>
+		<name>Maulfist Doorbuster</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/maulfistdoorbuster.jpg">KLD</set>
+		<color>R</color>
+		<manacost>3R</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Human Warrior</type>
+		<pt>4/2</pt>
+		<text>When Maulfist Doorbuster enters the battlefield, you get EE. Whenever Maulfist Doorbuster attacks, you may pay E. If you do, target creature can't block this turn.</text>
+	</card>
+	<card>
+		<name>Brazen Scourge</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/brazenscourge.jpg">KLD</set>
+		<color>R</color>
+		<manacost>1RR</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Gremlin</type>
+		<pt>3/3</pt>
+		<text>Haste</text>
+	</card>
+	<card>
+		<name>Creative Spark</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/creativespark.jpg">KLD</set>
+		<color>R</color>
+		<manacost>R</manacost>
+		<type>Sorcery</type>
+		<text>Choose target creature. Exile the top card of your library. You may have Creative Spark deal damage to that creature equal to the converted mana cost of the exiled card. If you don't, you may play that card until end of turn.</text>
+	</card>
+	<card>
+		<name>Inventor's Apprentice</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/inventorsapprentice.jpg">KLD</set>
+		<color>R</color>
+		<manacost>R</manacost>
+		<type>Creature - Human Artificer</type>
+		<pt>1/2</pt>
+		<text>Inventor's Apprentice gets +1/+1 as long as you control an artifact.</text>
+	</card>
+	<card>
+		<name>Incendiary Sabotage</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/incendiarysabotage.jpg">KLD</set>
+		<color>R</color>
+		<manacost>2RR</manacost>
+		<cmc>4</cmc>
+		<type>Instant</type>
+		<text>As an additional cost to cast Incedniary Sabotage, sacrifice an artifact.Incendiary Sabotage deals 3 damage to each creature.</text>
+	</card>
+	<card>
+		<name>Harnessed Lightning</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/harnessedlightning.jpg">KLD</set>
+		<color>R</color>
+		<manacost>1R</manacost>
+		<cmc>2</cmc>
+		<type>Instant</type>
+		<text>Choose target creature. You get EEE (three energy counters), then you may pay any amount of E. Harnessed Lightning deals that much damage to that creature.</text>
+	</card>
+	<card>
+		<name>Speedway Fanatic</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/speedwayfanatic.jpg">KLD</set>
+		<color>R</color>
+		<manacost>1R</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Human Pilot</type>
+		<pt>2/1</pt>
+		<text>HasteWhenever Speedway Fanatic crews a Vehicle, that Vehicle gains haste until end of turn.</text>
+	</card>
+	<card>
+		<name>Furious Reprisal</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/furiousreprisal.jpg">KLD</set>
+		<color>R</color>
+		<manacost>3R</manacost>
+		<cmc>4</cmc>
+		<type>Sorcery</type>
+		<text>Furious Reprisal deals 2 damage to each of two target creatures and/or players.</text>
+	</card>
+	<card>
+		<name>Start Your Engines</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/startyourengines.jpg">KLD</set>
+		<color>R</color>
+		<manacost>3R</manacost>
+		<cmc>4</cmc>
+		<type>Sorcery</type>
+		<text>Vehicles you control become artifact creatures until end of turn. Creatures you control get +2/+0 until end of turn.</text>
+	</card>
+	<card>
+		<name>Built to Smash</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/builttosmash.jpg">KLD</set>
+		<color>R</color>
+		<manacost>R</manacost>
+		<type>Instant</type>
+		<text>Target attacking creature gets +3/+3 until end of turn. If it's an artifact creature, it gains trample until end of turn.</text>
+	</card>
+	<card>
+		<name>Hijack</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/hijack.jpg">KLD</set>
+		<color>R</color>
+		<manacost>1RR</manacost>
+		<cmc>3</cmc>
+		<type>Sorcery</type>
+		<text>Gain control of target artifact or creature until end of turn. Untap it. It gains haste until end of turn.</text>
+	</card>
+	<card>
+		<name>Giant Spectacle</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/giantspectacle.jpg">KLD</set>
+		<color>R</color>
+		<manacost>1R</manacost>
+		<cmc>2</cmc>
+		<type>Enchantment - Aura</type>
+		<text>Enchant creature Enchanted creature gets +2/+1 and has menace.</text>
+	</card>
+	<card>
+		<name>Wayward Giant</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/waywardgiant.jpg">KLD</set>
+		<color>R</color>
+		<manacost>4R</manacost>
+		<cmc>5</cmc>
+		<type>Creature - Giant</type>
+		<pt>4/5</pt>
+		<text>Menace</text>
+	</card>
+	<card>
+		<name>Spontaneous Artist</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/spontaneousartist.jpg">KLD</set>
+		<color>R</color>
+		<manacost>3R</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Human Rogue</type>
+		<pt>3/3</pt>
+		<text>When Spontaneous Artist enters the battlefield, you get E.Pay E: Target creature gains haste until end of turn.</text>
+	</card>
+	<card>
+		<name>Spireside Infiltrator</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/spiresideinfiltrator.jpg">KLD</set>
+		<color>R</color>
+		<manacost>2R</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Human Rogue</type>
+		<pt>3/2</pt>
+		<text>Whenever Spireside Infiltrator becomes tapped, it deals 1 damage to each opponent.</text>
+	</card>
+	<card>
+		<name>Reckless Fireweaver</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/recklessfireweaver.jpg">KLD</set>
+		<color>R</color>
+		<manacost>1R</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Human Artificer</type>
+		<pt>1/3</pt>
+		<text>Whenever an artifact enters the battlefield under your control, Reckless Fireweaver deals 1 damage to each opponent.</text>
+	</card>
+	<card>
+		<name>Cathartic Reunion</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/catharticreunion.jpg">KLD</set>
+		<color>R</color>
+		<manacost>1R</manacost>
+		<cmc>2</cmc>
+		<type>Sorcery</type>
+		<text>As an additional cost to cast Cathartic Reunion, discard two cards.Draw three cards.</text>
+	</card>
+	<card>
+		<name>Demolish</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/demolish.jpg">KLD</set>
+		<color>R</color>
+		<manacost>3R</manacost>
+		<cmc>4</cmc>
+		<type>Sorcery</type>
+		<text>Destroy target artifact of land.</text>
+	</card>
+	<card>
+		<name>Chandra's Pyrohelix</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/chandraspyrohelix.jpg">KLD</set>
+		<color>R</color>
+		<manacost>1R</manacost>
+		<cmc>2</cmc>
+		<type>Instant</type>
+		<text>Chandra's Pyrohelix deals 2 damage divided as you choose among one or two target creatures and/or players.</text>
+	</card>
+	<card>
+		<name>Salivating Gremlins</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/salivatinggremlins.jpg">KLD</set>
+		<color>R</color>
+		<manacost>2R</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Gremlins</type>
+		<text>Whenever an artifact enters the battlefield under your control, Salivating Gremlins gets +2/+0 and gains trample until end of turn.</text>
+	</card>
+	<card>
+		<name>Ruinous Gremlin</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/ruinousgremlin.jpg">KLD</set>
+		<color>R</color>
+		<manacost>R</manacost>
+		<type>Creature - Gremlin</type>
+		<pt>1/1</pt>
+		<text>2R, Sacrifice Ruinous Gremlin: Destroy target artifact.</text>
+	</card>
+	<card>
+		<name>Welding Sparks</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/weldingsparks.jpg">KLD</set>
+		<color>R</color>
+		<manacost>2R</manacost>
+		<cmc>3</cmc>
+		<type>Instant</type>
+		<text>Welding Sparks deals X damage to target creature, where X is 3 plus the number of artifacts you control.</text>
+	</card>
+	<card>
+		<name>Terror of the Fairgrounds</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/terrorofthefairgrounds.jpg">KLD</set>
+		<color>R</color>
+		<manacost>3R</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Gremlin</type>
+		<pt>5/2</pt>
+		<text />
+	</card>
+	<card>
+		<name>Oviya Pashiri, Sage Lifecrafter</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/oviyapashirisagelifecrafter.jpg">KLD</set>
+		<color>G</color>
+		<manacost>G</manacost>
+		<type>Legendary Creature - Human Artifact</type>
+		<pt>1/2</pt>
+		<text>2G, T: Create a 1/1 colorless Servo artifact creature token.4G, T: Create an X/X colorless Construct artifact creature token, where X is the number of creatures you control.</text>
+	</card>
+	<card>
+		<name>Bristling Hydra</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/bristlinghydra.jpg">KLD</set>
+		<color>G</color>
+		<manacost>2GG</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Hydra</type>
+		<pt>4/3</pt>
+		<text>When Bristling Hydra enters the battlefield, you get EEE (three energy counters).Pay EEE: Put a +1/+1 counter on Bristling Hydra. It gains hexproof until end of turn.</text>
+	</card>
+	<card>
+		<name>Wildest Dreams</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/wildestdreams.jpg">KLD</set>
+		<color>G</color>
+		<manacost>XXG</manacost>
+		<cmc>3</cmc>
+		<type>Sorcery</type>
+		<text>Return X target cards from your graveyard to your hand. Exile Wildest Dreams.</text>
+	</card>
+	<card>
+		<name>Cultivator of Blades</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/cultivatorofblades.jpg">KLD</set>
+		<color>G</color>
+		<manacost>3GG</manacost>
+		<cmc>5</cmc>
+		<type>Creature - Elf Artificer</type>
+		<pt>1/1</pt>
+		<text>Fabricate 2Whenever Cultivator of Blades attacks, you may have other attacking creatures get +X/+X until end of turn, where X is Cultivator of Blade's power.</text>
+	</card>
+	<card>
+		<name>Architect of the Untamed</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/architectoftheuntamed.jpg">KLD</set>
+		<color>G</color>
+		<manacost>2G</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Elf Artificer Druid</type>
+		<pt>2/3</pt>
+		<text>Whenever a land enters the battlefield under your control, you get E (an energy counter).Pay EEEEEEEE: Create a 6/6 colorless Beast artifact creature token.</text>
+	</card>
+	<card>
+		<name>Creeping Mold</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/creepingmold.jpg">KLD</set>
+		<color>G</color>
+		<manacost>2GG</manacost>
+		<cmc>4</cmc>
+		<type>Sorcery</type>
+		<text>Destroy target artifact, enchantment, or land.</text>
+	</card>
+	<card>
+		<name>Durable Handicraft</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/durablehandicraft.jpg">KLD</set>
+		<color>G</color>
+		<manacost>1G</manacost>
+		<cmc>2</cmc>
+		<type>Enchantment</type>
+		<text>Whenever a creature enters the battlefield under your control, you may pay 1. If you do, put a +1/+1 counter on that creature.5G, Sacrifice Durable Handicraft: Put a +1/+1 counter on each creature you control.</text>
+	</card>
+	<card>
+		<name>Elegant Edgecrafters</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/elegantedgecrafters.jpg">KLD</set>
+		<color>G</color>
+		<manacost>4GG</manacost>
+		<cmc>6</cmc>
+		<type>Creature - Elf Artificer</type>
+		<pt>3/4</pt>
+		<text>Elegant Edgecrafters can't be blocked by creatures with power 2 or less.Fabricate 2</text>
+	</card>
+	<card>
+		<name>Fairgrounds Trumpeter</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/fairgroundstrumpeter.jpg">KLD</set>
+		<color>G</color>
+		<manacost>2G</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Elephant</type>
+		<pt>2/2</pt>
+		<text>At the beginning of each end step, if a +1/+1 counter was placed on a permanent under your control this turn, put a +1/+1 counter on Fairgrounds Trumpeter.</text>
+	</card>
+	<card>
+		<name>Nature's Way</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/naturesway.jpg">KLD</set>
+		<color>G</color>
+		<manacost>1G</manacost>
+		<cmc>2</cmc>
+		<type>Sorcery</type>
+		<text>Target creature you control gains vigilance and trample until end of turn. It deals damage equal to its power to target creature you don't control.</text>
+	</card>
+	<card>
+		<name>Blossoming Defense</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/blossomingdefense.jpg">KLD</set>
+		<color>G</color>
+		<manacost>G</manacost>
+		<type>Instant</type>
+		<text>Target creature you control gets +2/+2 and gains hexproof until end of turn.</text>
+	</card>
+	<card>
+		<name>Longtusk Cub</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/longtuskcub.jpg">KLD</set>
+		<color>G</color>
+		<manacost>1G</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Cat</type>
+		<pt>2/2</pt>
+		<text>Whenever Longtusk Cub deals combat damage to a player, you get EE (two energy counters).Pay EE: Put a +1/+1 counter on Longtusk Cub.</text>
+	</card>
+	<card>
+		<name>Arborback Stomper</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/arborbackstomper.jpg">KLD</set>
+		<color>G</color>
+		<manacost>3GG</manacost>
+		<cmc>5</cmc>
+		<type>Creature - Beast</type>
+		<pt>5/4</pt>
+		<text>Trample When Arborback Stomper enters the battlefield, you gain 5 life.</text>
+	</card>
+	<card>
+		<name>Armorcraft Judge</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/armorcraftjudge.jpg">KLD</set>
+		<color>G</color>
+		<manacost>3G</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Elf Artificer</type>
+		<pt>3/3</pt>
+		<text>When Armorcraft Judge enters the battlefield, draw a card for each creature you control with a +1/+1 counter on it.</text>
+	</card>
+	<card>
+		<name>Peema Outrider</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/peemaoutrider.jpg">KLD</set>
+		<color>G</color>
+		<manacost>2GG</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Elf Artificer</type>
+		<pt>3/3</pt>
+		<text>Trample Fabricate 1</text>
+	</card>
+	<card>
+		<name>Cowl Prowler</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/cowlprowler.jpg">KLD</set>
+		<color>G</color>
+		<manacost>4GG</manacost>
+		<cmc>6</cmc>
+		<type>Creature - Wurm</type>
+		<pt>6/6</pt>
+		<text />
+	</card>
+	<card>
+		<name>Commencment of Festivities</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/commencementoffestivities.jpg">KLD</set>
+		<color>G</color>
+		<manacost>1G</manacost>
+		<cmc>2</cmc>
+		<type>Instant</type>
+		<text>Prevent all combat damage that would be dealt to players this turn.</text>
+	</card>
+	<card>
+		<name>Appetite for the Unnatural</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/appetitefortheunnatural.jpg">KLD</set>
+		<color>G</color>
+		<manacost>2G</manacost>
+		<cmc>3</cmc>
+		<type>Instant</type>
+		<text>Destroy target artifact or enchantment. You gain 2 life.</text>
+	</card>
+	<card>
+		<name>Hunt the Weak</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/hunttheweak.jpg">KLD</set>
+		<color>G</color>
+		<manacost>3G</manacost>
+		<cmc>4</cmc>
+		<type>Sorcery</type>
+		<text>Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control. (Each deals damage equal to its power to the other.)</text>
+	</card>
+	<card>
+		<name>Riparian Tiger</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/ripariantiger.jpg">KLD</set>
+		<color>G</color>
+		<manacost>3GG</manacost>
+		<cmc>5</cmc>
+		<type>Creature - Cat</type>
+		<pt>4/4</pt>
+		<text>TrampleWhen Riparian Tiger enters the battlefield, you get EE.Whenever Riparian Tiger attacks, you may pay EE. If you do, it gets +2/+2 until end of turn.</text>
+	</card>
+	<card>
+		<name>Ornamental Courage</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/ornamentalcourage.jpg">KLD</set>
+		<color>G</color>
+		<manacost>G</manacost>
+		<type>Instant</type>
+		<text>Untap target creature. It gets +1/+3 until end of turn.</text>
+	</card>
+	<card>
+		<name>Kujar Seedsculptor</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/kujarseedsculptor.jpg">KLD</set>
+		<color>G</color>
+		<manacost>1G</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Elf Druid</type>
+		<pt>1/2</pt>
+		<text>When Kujar Seedsculptor enters the battlefield, put a +1/+1 counter on target creature you control.</text>
+	</card>
+	<card>
+		<name>Wild Wanderer</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/wildwanderer.jpg">KLD</set>
+		<color>G</color>
+		<manacost>3G</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Elf Druid</type>
+		<pt>3/2</pt>
+		<text>When Wild Wanderer enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</text>
+	</card>
+	<card>
+		<name>Take Down</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/takedown.jpg">KLD</set>
+		<color>G</color>
+		<manacost>G</manacost>
+		<type>Sorcery</type>
+		<text>Choose one - *Take Down deals 4 damage to target creature with flying.*Take Down deals 1 damage to each creature with flying.</text>
+	</card>
+	<card>
+		<name>Servant of the Conduit</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/servantoftheconduit.jpg">KLD</set>
+		<color>G</color>
+		<manacost>1G</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Elf Druid</type>
+		<pt>2/2</pt>
+		<text>When Servant of the Conduit enters the battlefield, you get EE.T, Pay E: Add one mana of any color to your mana pool.</text>
+	</card>
+	<card>
+		<name>Sage of Shaila's Claim</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/sageofshailasclaim.jpg">KLD</set>
+		<color>G</color>
+		<manacost>1G</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Elf Druid</type>
+		<pt>2/1</pt>
+		<text>When Sage of Shaila's Claim enters the battlefield, you get EEE.</text>
+	</card>
+	<card>
+		<name>Wily Bander</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/wilybandar.jpg">KLD</set>
+		<color>G</color>
+		<manacost>G</manacost>
+		<type>Creature - Cat Monkey</type>
+		<pt>1/1</pt>
+		<text>2G: Wily Bander gains indestructible until end of turn.</text>
+	</card>
+	<card>
+		<name>Highspire Artisan</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/highspireartisan.jpg">KLD</set>
+		<color>G</color>
+		<manacost>2G</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Elf Artificer</type>
+		<pt>0/3</pt>
+		<text>Reach (This creature can block creatures with flying.)Fabricate 1 (When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.)</text>
+	</card>
+	<card>
+		<name>Attune with Aether</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/attunewithaether.jpg">KLD</set>
+		<color>G</color>
+		<manacost>G</manacost>
+		<type>Sorcery</type>
+		<text>Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library. You get EE (two energy counters).</text>
+	</card>
+	<card>
+		<name>Larger Than Life</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/largerthanlife.jpg">KLD</set>
+		<color>G</color>
+		<manacost>1G</manacost>
+		<cmc>2</cmc>
+		<type>Sorcery</type>
+		<text>Target creature gets +4/+4 and gains trample until end of turn.</text>
+	</card>
+	<card>
+		<name>Ghirapur Guide</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/ghirapurguide.jpg">KLD</set>
+		<color>G</color>
+		<manacost>2G</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Elf</type>
+		<pt>3/2</pt>
+		<text>2G: Target creature you control can't be blocked by creatures with power 2 or less this turn.</text>
+	</card>
+	<card>
+		<name>Dovin Baan</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/dovinbaan.jpg">KLD</set>
+		<color>W</color>
+		<color>U</color>
+		<manacost>2WU</manacost>
+		<cmc>4</cmc>
+		<type>Planeswalker - Dovin</type>
+		<pt>[3]</pt>
+		<text>[+1]: Until your next turn, up to one target creature gets -3/-0 and its activated abilities can't be activated.[-1]: You gain 2 life and draw a card.[-7]: You get an emblem with "Your opponents can't untap more than two permanents during their untap steps."</text>
+	</card>
+	<card>
+		<name>Saheeli Rai</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/saheelirai2.jpg">KLD</set>
+		<color>U</color>
+		<color>R</color>
+		<manacost>1UR</manacost>
+		<cmc>3</cmc>
+		<type>Planeswalker - Saheeli</type>
+		<pt>[3]</pt>
+		<text>+1: Scry 1. Saheeli Rai deals 1 damage to each opponent.-2: Create a token that's a copy of target artifact or creature you control, except it's an artifact in addition to its other types. That token gains haste. Exile is at the beginning of the next end step.-7: Search your library for up to three artifact cards with different names, put them onto the battlefield, then shuffle your library.</text>
+	</card>
+	<card>
+		<name>Rashmi, Eternities Crafter</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/rashmieternitiescrafter.jpg">KLD</set>
+		<color>G</color>
+		<color>U</color>
+		<manacost>2GU</manacost>
+		<cmc>4</cmc>
+		<type>Legendary Creature - Elf Druid</type>
+		<pt>2/3</pt>
+		<text>Whenever you cast your first spell each turn, reveal the top card of your library. if it's a nonland card with converted mana cost less than that spell's, you may cast it without paying its mana cost. if you don't cast the revealed card, put it into your hand.</text>
+	</card>
+	<card>
+		<name>Kambal, Consul of Allocation</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/kambalconsulofallocation.jpg">KLD</set>
+		<color>W</color>
+		<color>B</color>
+		<manacost>1WB</manacost>
+		<cmc>3</cmc>
+		<type>Legendary Creature - Human Advisor</type>
+		<pt>2/3</pt>
+		<text>Whenever an opponent casts a noncreature spell, that player loses 2 life and you gain 2 life.</text>
+	</card>
+	<card>
+		<name>Depala, Pilot Exemplar</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/depalapilotexemplar.jpg">KLD</set>
+		<color>R</color>
+		<color>W</color>
+		<manacost>1RW</manacost>
+		<cmc>3</cmc>
+		<type>Legendary Creature - Dwarf Pilot</type>
+		<pt>3/3</pt>
+		<text>Other Dwarves you control get +1/+1.Each Vehicle you control gets +1/+1 as long as it's a creature.Whenever Depala, Pilot Exemplar becomes tapped, you may pay X. If you do, reveal the top X cards of your library, put all Dwarf and Vehicle cards from among them into your hand, then put the rest on the bottom of your library in a random order.</text>
+	</card>
+	<card>
+		<name>Restoration Gearsmith</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/restorationgearsmith.jpg">KLD</set>
+		<color>W</color>
+		<color>B</color>
+		<manacost>2WB</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Human Artificer</type>
+		<pt>3/3</pt>
+		<text>When Restoration Gearsmith enters the battlefield, return target artifact or creature card from your graveyard to your hand.</text>
+	</card>
+	<card>
+		<name>Empyreal Voyager</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/empyrealvoyager.jpg">KLD</set>
+		<color>G</color>
+		<color>U</color>
+		<manacost>1GU</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Vedalken Scout</type>
+		<pt>2/3</pt>
+		<text>Flying, trample Whenever Empyreal Voyager deals combat damage to a player, you get that many E.</text>
+	</card>
+	<card>
+		<name>Engineered Might</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/engineeredmight.jpg">KLD</set>
+		<color>G</color>
+		<color>W</color>
+		<manacost>3GW</manacost>
+		<cmc>5</cmc>
+		<type>Sorcery</type>
+		<text>Choose one - *Target creature gets +5/+5 and gains trample until end of turn.*Creatures you control gets +2/+2 and gain vigilance until end of turn.</text>
+	</card>
+	<card>
+		<name>Hazardous Conditions</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/hazardousconditions.jpg">KLD</set>
+		<color>B</color>
+		<color>G</color>
+		<manacost>2BG</manacost>
+		<cmc>4</cmc>
+		<type>Sorcery</type>
+		<text>Creatures with no counters on them get -2/-2 until end of turn.</text>
+	</card>
+	<card>
+		<name>Veteran Motorist</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/veteranmotorist.jpg">KLD</set>
+		<color>R</color>
+		<color>W</color>
+		<manacost>RW</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Dwarf Pilot</type>
+		<pt>3/1</pt>
+		<text>When Veteran Motorist enters the battlefield, scry 2Whenever Veteran Motorist crews a Vehicle, that Vehicle gets +1/+1 until end of turn.</text>
+	</card>
+	<card>
+		<name>Whirler Virtuoso</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/whirlervirtuoso.jpg">KLD</set>
+		<color>U</color>
+		<color>R</color>
+		<manacost>1UR</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Vedalken Artificer</type>
+		<pt>2/3</pt>
+		<text>When Whirler Virtuoso enters the battlefield, you get EEE (three energy counters).Pay EEE: Creat a 1/1 colorless Thopter artifact creature token with flying.</text>
+	</card>
+	<card>
+		<name>Unlicensed Disintegration</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/unlicenseddisintegration.jpg">KLD</set>
+		<color>R</color>
+		<color>B</color>
+		<manacost>1RB</manacost>
+		<cmc>3</cmc>
+		<type>Instant</type>
+		<text>Destroy target creature. If you control an artifact, Unlicensed Disintegration deals 3 damage to that creature's controller.</text>
+	</card>
+	<card>
+		<name>Cloudblazer</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/cloudblazer.jpg">KLD</set>
+		<color>W</color>
+		<color>U</color>
+		<manacost>3WU</manacost>
+		<cmc>5</cmc>
+		<type>Creature - Human Scout</type>
+		<pt>2/2</pt>
+		<text>FlyingWhen Cloudblazer enters the battlefield, you gain 2 life and draw two cards.</text>
+	</card>
+	<card>
+		<name>Contraband Kingpin</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/contrabandkingpin.jpg">KLD</set>
+		<color>U</color>
+		<color>B</color>
+		<manacost>UB</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Aetherborn Rogue</type>
+		<pt>1/4</pt>
+		<text>LifelinkWhenever an artifact enters the battlefield under your control, scry 1.</text>
+	</card>
+	<card>
+		<name>Voltaic Brawler</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/voltaicbrawler.jpg">KLD</set>
+		<color>R</color>
+		<color>G</color>
+		<manacost>RG</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Human Warrior</type>
+		<pt>3/2</pt>
+		<text>When Voltaic Brawlers enters the battlefield, you get EE.Whenever Voltaic Brawler attacks, you may pay E. If you do, it gets +1/+1 and gains trample until end of turn.</text>
+	</card>
+	<card>
+		<name>Skysovereign, Consul Flagship</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/skysovereignconsulflagship.jpg">KLD</set>
+		<manacost>5</manacost>
+		<cmc>5</cmc>
+		<type>Legendary Artifact - Vehicle</type>
+		<pt>6/5</pt>
+		<text>FlyingWhenever Skysovereign, Consul Flagship enters the battlefield or attacks, it deals 3 damage to target creature or planeswalker an opponent controls.Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+	</card>
+	<card>
+		<name>Cultivator's Caravan</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/cultivatorscaravan.jpg">KLD</set>
+		<manacost>3</manacost>
+		<cmc>3</cmc>
+		<type>Artifact - Vehicle</type>
+		<pt>5/5</pt>
+		<text>T: Add one mana of any color to your mana pool.Crew 3 (Tap any amount of creatures you control with total power 3 or more: This vehicle becomes an artifact creature until end of turn.)</text>
+	</card>
+	<card>
+		<name>Fleetwheel Cruiser</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/fleetwheelcruiser.jpg">KLD</set>
+		<manacost>4</manacost>
+		<cmc>4</cmc>
+		<type>Trample, haste</type>
+		<pt>5/3</pt>
+		<text>When Fleetwheel Cruiser enters the battlefield, it becomes an artifact creature until end of turn.Crew 2  (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+	</card>
+	<card>
+		<name>Smuggler's Copter</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/smugglerscopter.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact - Vehicle</type>
+		<pt>3/3</pt>
+		<text>FlyingWhenever Smuggler's Copter attacks or blocks, you may draw a card. If you do, discard a card.Crew 1.</text>
+	</card>
+	<card>
+		<name>Ballista Charger</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/ballistacharger.jpg">KLD</set>
+		<manacost>5</manacost>
+		<cmc>5</cmc>
+		<type>Artifact - Vehicle</type>
+		<pt>6/6</pt>
+		<text>Whenever Ballista Charger attacks, it deals 1 damage to target creature or player.Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+	</card>
+	<card>
+		<name>Bomat Bazaar Barge</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/bomatbazaarbarge.jpg">KLD</set>
+		<manacost>4</manacost>
+		<cmc>4</cmc>
+		<type>Artifact - Vehicle</type>
+		<pt>5/5</pt>
+		<text>When Bomat Bazaar Barge enters the battlefield, draw a card.Crew 3 (Tap any amount of creatures you control with total power 3 or more: This vehicle becomes an artifact creature until end of turn.)</text>
+	</card>
+	<card>
+		<name>Demolition Stomper</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/demolitionstomper.jpg">KLD</set>
+		<manacost>6</manacost>
+		<cmc>6</cmc>
+		<type>Artifact - Vehicle</type>
+		<pt>10/7</pt>
+		<text>Demolition Stomper can't be blocked by creatures with power 2 or less.Crew 5</text>
+	</card>
+	<card>
+		<name>Ovalchase Dragster</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/ovalchasedragster.jpg">KLD</set>
+		<manacost>4</manacost>
+		<cmc>4</cmc>
+		<type>Artifact - Vehicle</type>
+		<pt>6/1</pt>
+		<text>Trample, hasteCrew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+	</card>
+	<card>
+		<name>Aradara Express</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/aradaraexpress.jpg">KLD</set>
+		<manacost>5</manacost>
+		<cmc>5</cmc>
+		<type>Artifact - Vehicle</type>
+		<pt>8/6</pt>
+		<text>MenaceCrew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+	</card>
+	<card>
+		<name>Renegade Freighter</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/renegadefreighter.jpg">KLD</set>
+		<manacost>3</manacost>
+		<cmc>3</cmc>
+		<type>Artifact - Vehicle</type>
+		<pt>4/3</pt>
+		<text>Whenever Renegade Freighter attacks, it gets +1/+1 and gains trample until end of turn.Crew 2 Tap any number of creatures you control with power 2 or more. This Vehicle becomes an artifact creature until end of turn.)</text>
+	</card>
+	<card>
+		<name>Sky Skiff</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/skyskiff.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact - Vehicle</type>
+		<pt>2/3</pt>
+		<text>FlyingCrew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+	</card>
+	<card>
+		<name>Aetherworks Marvel</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/aetherworksmarvel.jpg">KLD</set>
+		<manacost>4</manacost>
+		<cmc>4</cmc>
+		<type>Legendary Artifact</type>
+		<text>Whenever a permanent you control is put into a graveyard, you get E (an energy counter).T, Pay EEEEEE: Look at the top six cards of your library. You may cast a card from among them without paying its mana cost. Put the rest on the bottom of your library in a random order.</text>
+	</card>
+	<card>
+		<name>Metalwork Colossus</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/metalworkcolossus.jpg">KLD</set>
+		<manacost>11</manacost>
+		<cmc>2</cmc>
+		<type>Artifact Creature - Construct</type>
+		<pt>10/10</pt>
+		<text>Metalwork Colossus costs X less to cast, where X is the total converted mana cost of noncreature artifacts you control.Sacrifice two artifacts: Return Metalwork Colossus from your graveyard to your hand.</text>
+	</card>
+	<card>
+		<name>Deadlock Trap</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/deadlocktrap.jpg">KLD</set>
+		<manacost>3</manacost>
+		<cmc>3</cmc>
+		<type>Artifact</type>
+		<text>Deadlock Trap enters the battlefield tapped.When Deadlock Trap enters the battlefield you get EEE. T, Pay E: Tap target creature or planeswalker. Its activated abilities can't be activated this turn.</text>
+	</card>
+	<card>
+		<name>Bomat Courier</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/bomatcourier.jpg">KLD</set>
+		<manacost>1</manacost>
+		<type>Artifact Creature - Construct</type>
+		<pt>1/1</pt>
+		<text>HasteWhenever Bomat Courier attacks, exile the top card of your library face down. (You can't look at it.)R, Discard your hand, Sacrifice Bomat Courier: Put all cards exiled with Bomat Courier into their owners' hands.</text>
+	</card>
+	<card>
+		<name>Scrapheap Scrounger</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/scrapheapscrounger.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact Creature - Construct</type>
+		<pt>3/2</pt>
+		<text>Scrapheap Scrounger can't block.1B, Exile another creature card from your graveyard: Return Scrapheap Scrounger from your graveyard to the battlefield.</text>
+	</card>
+	<card>
+		<name>Electrostatic Pummeler</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/electrostaticpummeler.jpg">KLD</set>
+		<manacost>3</manacost>
+		<cmc>3</cmc>
+		<type>Artifact Creature - Construct</type>
+		<pt>1/1</pt>
+		<text>When Electrostatic Pummeler enters the battlefield, you get EEE.  (three energy counters)Pay EEE: Electrostatic Pummeler gets +X/+X until end of turn, where X is its power.</text>
+	</card>
+	<card>
+		<name>Dynavolt Tower</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/dynavolttower.jpg">KLD</set>
+		<manacost>3</manacost>
+		<cmc>3</cmc>
+		<type>Artifact</type>
+		<text>Whenever you cast an instant or sorcery spell, get EE (two energy counters).T, Pay EEEEE: Dynavolt Tower deals 3 damage to target creature or player.</text>
+	</card>
+	<card>
+		<name>Key to the City</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/keytothecity.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact</type>
+		<text>T, Discard a card: Up to one target creature can't be blocked this turn.Whenever Key to the City becomes untapped, you may pay 2. If you do, draw a card.</text>
+	</card>
+	<card>
+		<name>Ghirapur Orrery</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/ghirapurorrery.jpg">KLD</set>
+		<manacost>4</manacost>
+		<cmc>4</cmc>
+		<type>Artifact</type>
+		<text>Each player may play an additional land on each of his or her turns.At the beginning of each player's upkeep, if that player has no cards in hand, that player draws three cards.</text>
+	</card>
+	<card>
+		<name>Multiform Wonder</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/multiformwonder.jpg">KLD</set>
+		<manacost>5</manacost>
+		<cmc>5</cmc>
+		<type>Artifact Creature - Construct</type>
+		<pt>3/3</pt>
+		<text>When Multiform Wonder enters the battlefield, you get EEE (three energy counters).Pay E: Multiform Wonder gains your choice of flying, vigilance, or lifelink until end of turn.Pay E: Multiform Wonder gets +2/-2 or -2/+2 until end of turn.</text>
+	</card>
+	<card>
+		<name>Panharmonicon</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/panharmonicon.jpg">KLD</set>
+		<manacost>4</manacost>
+		<cmc>4</cmc>
+		<type>Artifact</type>
+		<text>If an artifact or creature entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.</text>
+	</card>
+	<card>
+		<name>Aetherflux Reservoir</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/aetherfluxreservoir.jpg">KLD</set>
+		<manacost>4</manacost>
+		<cmc>4</cmc>
+		<type>Artifact</type>
+		<text>Whenever you cast a spell, you gain 1 life for each spell you've cast this turn. Pay 50 life: Aetherfux Reservoir deals 50 damage to target creature or player.</text>
+	</card>
+	<card>
+		<name>Animation Module</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/animationmodule.jpg">KLD</set>
+		<manacost>1</manacost>
+		<type>Artifact</type>
+		<text>WHenever one or more +1/+1 counters are placed on a permanent you control, you may pay 1. If you do, create a 1/1 colorless Servo artifact creature token.3, T: Choose a counter on target permanent or player. Give that permanent or player another counter of that kind.</text>
+	</card>
+	<card>
+		<name>Decoction Module</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/decoctionmodule.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact</type>
+		<text>Whenever a creature enters the battlefield under your control, you get E (an energy counter).4, T: Return target creature you control to its owner's hand.</text>
+	</card>
+	<card>
+		<name>Fabrication Module</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/fabricationmodule.jpg">KLD</set>
+		<manacost>3</manacost>
+		<cmc>3</cmc>
+		<type>Artifact</type>
+		<text>Whenever you get one or more E (energy counters), put a +1/+1 counter on target creature you control.4, T: You get E.</text>
+	</card>
+	<card>
+		<name>Chief of the Foundry</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/chiefofthefoundry.jpg">KLD</set>
+		<manacost>3</manacost>
+		<cmc>3</cmc>
+		<type>Artifact Creature - Construct</type>
+		<pt>2/3</pt>
+		<text>Other artifact creatures you control get +1/+1.</text>
+	</card>
+	<card>
+		<name>Foundry Inspector</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/foundryinspector.jpg">KLD</set>
+		<manacost>3</manacost>
+		<cmc>3</cmc>
+		<type>Artifact Creature - Construct</type>
+		<pt>3/2</pt>
+		<text>Artifact spells you cast cost 1 less to cast.</text>
+	</card>
+	<card>
+		<name>Iron League Steed</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/ironleaguesteed.jpg">KLD</set>
+		<manacost>4</manacost>
+		<cmc>4</cmc>
+		<type>Artifact Creature - Construct</type>
+		<pt>2/2</pt>
+		<text>HasteFabricate 1(When this creature enters the battlefield, put a +1/+1 counter on it or creature a 1/1 colorless Servo artifact creature token.)</text>
+	</card>
+	<card>
+		<name>Snare Thopter</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/snarethopter.jpg">KLD</set>
+		<manacost>4</manacost>
+		<cmc>4</cmc>
+		<type>Artifact Creature - Thopter</type>
+		<pt>3/2</pt>
+		<text>Flying, haste</text>
+	</card>
+	<card>
+		<name>Perpetual Timepiece</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/perpetualtimepiece.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact</type>
+		<text>T: Put the top two cards of your library into your graveyard.2, Exile Perpetual Timepiece: Shuffle any number of target cards from your graveyard into your library.</text>
+	</card>
+	<card>
+		<name>Whirlermaker</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/whirlermaker.jpg">KLD</set>
+		<manacost>3</manacost>
+		<cmc>3</cmc>
+		<type>Artifact</type>
+		<text>4, T: Creatuer a 1/1 colorless Thopter artifact creature token with flying.</text>
+	</card>
+	<card>
+		<name>Filigree Familiar</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/filigreefamiliar.jpg">KLD</set>
+		<manacost>3</manacost>
+		<cmc>3</cmc>
+		<type>Artifact Creature - Fox</type>
+		<pt>2/2</pt>
+		<text>When Filigree Familiar enters the battlefield, you gain 2 life.When Filigree Familiar dies, draw a card.</text>
+	</card>
+	<card>
+		<name>Workshop Assistant</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/workshopassistant.jpg">KLD</set>
+		<manacost>3</manacost>
+		<cmc>3</cmc>
+		<type>Artifact Creature - Construct</type>
+		<pt>1/2</pt>
+		<text>When Workshop Assistant dies, return another target artifact card from your graveyard to your hand.</text>
+	</card>
+	<card>
+		<name>Self-Assembler</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/selfassembler.jpg">KLD</set>
+		<manacost>5</manacost>
+		<cmc>5</cmc>
+		<type>Artifact Creature - Assembly-Worker</type>
+		<pt>4/4</pt>
+		<text>When Self-Assembler enters the battlefield, you may search your library for an Assembly-Worker creature card, reveal it, put it into your hand, then shuffle your library.</text>
+	</card>
+	<card>
+		<name>Cogworker's Puzzleknot</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/cogworkerspuzzleknot.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact</type>
+		<text>When Cogworker's Puzzleknot enters the battlefield, create a 1/1 colorless Servo artifact creature token.1W, Sacrfice Cogworker's Puzzleknot: Create a 1/1 colorless Servo artifact creature token.</text>
+	</card>
+	<card>
+		<name>Glassblower's Puzzleknot</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/glassblowerspuzzleknot.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact</type>
+		<text>When Glassblower's Puzzleknot enters the battlefield, scry 2, then you get EE. (You get two energy counters. To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)2U, Sacrifice Glassblower's Puzzleknot: Scry 2, then you get EE.</text>
+	</card>
+	<card>
+		<name>Metalspinner's Puzzleknot</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/metalspinnerspuzzleknot.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact</type>
+		<text>When Metalspinner's Puzzleknot enters the battlefield, you draw a card and you lose 1 life.2B, Sacrifice Metalspinner's Puzzleknot: You draw a card and you lose 1 life.</text>
+	</card>
+	<card>
+		<name>Fireforger's Puzzleknot</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/fireforgerspuzzleknot.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact</type>
+		<text>When Fireforger's Puzzleknot enters the battlefield, it deals 1 damage to target creature or player. 2R, Sacrifice Fireforger's Puzzleknot: It deals 1 damage to target creature or player.</text>
+	</card>
+	<card>
+		<name>Woodweaver's Puzzleknot</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/woodweaverspuzzleknot.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact</type>
+		<text>When Woodweaver's Puzzleknot enters the battlefield, you gain 3 life and get EEE (three energy counters).2G, Sacrifice Woodweaver's Puzzleknot: You gain 3 life and get EEE.</text>
+	</card>
+	<card>
+		<name>Bastion Mastodon</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/bastionmastodon.jpg">KLD</set>
+		<manacost>5</manacost>
+		<cmc>5</cmc>
+		<type>Artifact Creature - Elephant</type>
+		<pt>4/5</pt>
+		<text>W: Bastion Mastodon gains vigilance until end of turn.</text>
+	</card>
+	<card>
+		<name>Dukhara Peafowl</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/dukharapeafowl.jpg">KLD</set>
+		<manacost>4</manacost>
+		<cmc>4</cmc>
+		<type>Artifact Creature - Bird</type>
+		<pt>2/4</pt>
+		<text>U: Dukhara Peafowl gains flying until end of turn.</text>
+	</card>
+	<card>
+		<name>Prakhata Pillar-Bug</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/prakhatapillarbug.jpg">KLD</set>
+		<manacost>3</manacost>
+		<cmc>3</cmc>
+		<type>Artifact Creature - Insect</type>
+		<pt>2/3</pt>
+		<text>B: Prakhata Pillar-Bug gains lifelink until end of turn.</text>
+	</card>
+	<card>
+		<name>Weldfast Monitor</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/weldfastmonitor.jpg">KLD</set>
+		<manacost>3</manacost>
+		<cmc>3</cmc>
+		<type>Artifact Creature - Lizard</type>
+		<pt>3/2</pt>
+		<text>R: Weldfast Monitor gains menace until end of turn.</text>
+	</card>
+	<card>
+		<name>Narnam Cobra</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/narnamcobra.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact Creature - Snake</type>
+		<pt>2/1</pt>
+		<text>G: Narnam Cobra gains deathtouch until end of turn.</text>
+	</card>
+	<card>
+		<name>Eager Construct</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/eagerconstruct.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact Creature - Construct</type>
+		<pt>2/2</pt>
+		<text>When Eager Construct enters the battlefield, each player may scry 1.</text>
+	</card>
+	<card>
+		<name>Accomplished Automaton</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/accomplishedautomaton.jpg">KLD</set>
+		<manacost>7</manacost>
+		<cmc>7</cmc>
+		<type>Artifact Creature - Construct</type>
+		<pt>5/7</pt>
+		<text>Fabricate 1</text>
+	</card>
+	<card>
+		<name>Consulate Skygate</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/consulateskygate.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact Creature - Wall</type>
+		<pt>0/4</pt>
+		<text>DefenderReach</text>
+	</card>
+	<card>
+		<name>Inventor's Goggles</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/inventorsgoggles.jpg">KLD</set>
+		<manacost>1</manacost>
+		<type>Artifact - Equipment</type>
+		<text>Equipped creature gets +1/+2.Whenever an Artificer enters the battlefield under your control, you may attach Inventor's Goggles.Equiped 2 ( 2: Attach to target creature you control. Equip only as a sorcery.)</text>
+	</card>
+	<card>
+		<name>Torch Gauntlet</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/torchgauntlet.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact - Equipment</type>
+		<text>Equipped creature gets +2/+0Equip: 2</text>
+	</card>
+	<card>
+		<name>Prophetic Prism</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/propheticprism.jpg">KLD</set>
+		<manacost>2</manacost>
+		<cmc>2</cmc>
+		<type>Artifact</type>
+		<text>When Prophetic Prism enters the battlefield, draw a card.1, T: Add one mana of any color to your mana pool.</text>
+	</card>
+	<card>
+		<name>Concealed Courtyard</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/concealedcourtyard.jpg">KLD</set>
+		<type>Land</type>
+		<text>Concealed Courtyard enters the battlefield tapped unless you control two or fewer other lands.T: Add W or B to your mana pool.</text>
+	</card>
+	<card>
+		<name>Spirebluff Canal</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/spirebluffcanal.jpg">KLD</set>
+		<type>Land</type>
+		<text>Spirebluff Canal enters the battlefield tapped unless you control two or fewer other lands.T: Add U or R to your mana pool.</text>
+	</card>
+	<card>
+		<name>Blooming Marsh</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/bloomingmarsh.jpg">KLD</set>
+		<type>Land</type>
+		<text>Blooming Marsh enters the battlefield tapped unless you control two or fewer other lands.T: Add B or G to your mana pool.</text>
+	</card>
+	<card>
+		<name>Inspiring Vantage</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/inspiringvantage.jpg">KLD</set>
+		<type>Land</type>
+		<text>Inspiring Vantage enters the battlefield tapped unless you control two or fewer other lands.T: Add R or W to your mana pool.</text>
+	</card>
+	<card>
+		<name>Botanical Sanctum</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/botanicalsanctum.jpg">KLD</set>
+		<type>Land</type>
+		<text>Botanical Sanctum enters the battlefield tapped unless you control two or fewer other lands.T: Add G or U to your mana pool.</text>
+	</card>
+	<card>
+		<name>Inventor's Fair</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/inventorsfair.jpg">KLD</set>
+		<type>Legendary Land</type>
+		<text>At the beginning of your upkeep, if you control three or more artifacts, you gain 1 life. T: Add &amp;loz; to your mana pool.4, T, Sacrifice Inventor's Fair: Search your library for an artifact card, reveal it, put it into your hand, then shuffle your library. Activate this ability only if you control three or more artifacts.</text>
+	</card>
+	<card>
+		<name>Aether Hub</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/aetherhub.jpg">KLD</set>
+		<type>Land</type>
+		<text>When Aether Hub enters the battlefield, you get E (an energy counter).T: Add &amp;loz; to your mana pool.T, Pay E: Add one mana of any color to your mana pool.</text>
+	</card>
+	<card>
+		<name>Sequestered Stash</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/sequesteredstash.jpg">KLD</set>
+		<manacost>Land</manacost>
+		<cmc>4</cmc>
+		<text>T: Add &amp;loz; to your mana pool.4, T, Sacrifice Sequestered Stash: Put the top five cards of your library into your graveyard. Then you may put an artifact card from your graveyard on top of your library.</text>
+	</card>	
+	<card>
+		<name>Chandra, Pyrogenius</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/chandrapyrogenius.jpg">KLD</set>
+		<color>R</color>
+		<manacost>4RR</manacost>
+		<cmc>6</cmc>
+		<type>Planeswalker - Chandra</type>
+		<pt>[5]</pt>
+		<text>[+2]: Chandra, Pyrogenius deals 2 damage to each opponent. [-3]: Chandra, Pyrogenius deals 4 damage to target creature. [-10]: Chandra, Pyrogenius deals 6 damage to target player and each creature he or she controls.</text>
+	</card>
+	<card>
+		<name>Nissa, Nature's Artisan</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/nissanaturesartisan.jpg">KLD</set>
+		<color>G</color>
+		<manacost>4GG</manacost>
+		<cmc>6</cmc>
+		<type>Plansewalker - Nissa</type>
+		<pt>[5]</pt>
+		<text>[+1}: You gain 3 life.[-4]: Reveal tje top two cards of your library. Put all land cards from among them onto the battlefield and the rest into your hand.[-12]: Creatures you control get +5/+5 and gain trample until end of turn.</text>
+	</card>
+	<card>
+		<name>Verdant Crescendo</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/verdantcrescendo.jpg">KLD</set>
+		<color>G</color>
+		<manacost>3G</manacost>
+		<cmc>4</cmc>
+		<type>Sorcery</type>
+		<text>Search your library for a basic land card and put it onto the battlefield tapped. Search your library and graveyard for a card named Nissa, Nature's Artisan, reveal it, and put it into your hand. Then shuffle your library.</text>
+	</card>
+	<card>
+		<name>Guardian of the Great Conduit</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/guardianofthegreatconduit.jpg">KLD</set>
+		<color>G</color>
+		<manacost>3G</manacost>
+		<cmc>4</cmc>
+		<type>Creature - Elemental</type>
+		<pt>2/4</pt>
+		<text>Reach (This creature can block creatures with flying.)As long as you control a Nissa planeswalker, Guardian of the Great Conduit gets +2/+0 and has vigilance. (Attacking doesn't cause it to tap.)</text>
+	</card>
+	<card>
+		<name>Flame Lash</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/flamelash.jpg">KLD</set>
+		<color>R</color>
+		<manacost>3R</manacost>
+		<cmc>4</cmc>
+		<type>Instant</type>
+		<text>Flame Lash deals 4 damage to target creature or player.</text>
+	</card>
+	<card>
+		<name>Terrain Elemental</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/terrainelemental.jpg">KLD</set>
+		<color>G</color>
+		<manacost>1G</manacost>
+		<cmc>2</cmc>
+		<type>Creature - Elemental</type>
+		<text />
+	</card>
+	<card>
+		<name>Woodland Stream</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/woodlandstream.jpg">KLD</set>
+		<type>Land</type>
+		<text>Woodland stream enters the battlefield tapped.T: Add G or U to your mana pool.</text>
+	</card>
+	<card>
+		<name>Stone Quarry</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/stonequarry.jpg">KLD</set>
+		<text>Stone Quarry enters the battlefield tapped.{T}: Add {R} or {W} to your mana pool.</text>
+	</card>
+	<card>
+		<name>Renegade Tactics</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/renegadetactics.jpg">KLD</set>
+		<color>R</color>
+		<manacost>R</manacost>
+		<cmc>1</cmc>
+		<type>Sorcery</type>
+		<pt></pt>
+		<text>Target creature can't block this turn. Draw a card. </text>
+	</card>
+	<card>
+		<name>Libaration Combustion</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/Libarationcombustion.jpg">KLD</set>
+		<color>R</color>
+		<manacost>4R</manacost>
+		<cmc>5</cmc>
+		<type>Sorcery</type>
+		<pt></pt>
+		<text>Liberating Combustion deals 6 damage to target creature. You may search your library and/or graveyard for a card named Chandra, Pyrogenius, reveal it, and put it into your hand. If you search your library this way, shuffle it. </text>
+	</card>
+	<card>
+		<name>Renegade Firebrand</name>
+		<set picURL="http://mythicspoiler.com/kld/cards/renegadefirebrand.jpg">KLD</set>
+		<color>R</color>
+		<manacost>2R</manacost>
+		<cmc>3</cmc>
+		<type>Creature - Human Warrior</type>
+		<pt>3/2</pt>
+		<text>As long as you control a Chandra planeswalker, Renegade Firebrand gets +1/+0 and has first strike.</text>
+	</card>	
+</cards>
+	
+<set>
+	<name>KLDP</name>
+	<longname>Kaladesh Promos</longname>
+	<settype>Expansion</settype>
+</set>
+
+<card>
+	<name>Cataclysmic Gearhulk</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/cataclysmicgearhulkpromo.jpg">KLDP</set>
+	<color>W</color>
+	<manacost>3WW</manacost>
+	<cmc>5</cmc>
+	<type>Artifact Creature - Construct</type>
+	<pt>4/5</pt>
+	<text>Vigilant.When Cataclysmic Gearhulk enters the battlefield, each player chooses from among the non-land permanents he or she controls an artifact, a creature, an enchantment, and a planeswalker, then sacrifices the rest.</text>
+</card>
+<card>
+	<name>Torrential Gearhulk</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/torrentialgearhulkpromo.jpg">KLDP</set>
+	<color>U</color>
+	<manacost>4UU</manacost>
+	<cmc>6</cmc>
+	<type>Artifact Creature - Construct</type>
+	<pt>5/6</pt>
+	<text>FlashWhen Torrential Gearhulk enters the battlefield, you may cast target instant card from your graveyard without paying its mana cost. If that card would be put into your graveyrad this turn, exile it instead.</text>
+</card>
+<card>
+	<name>Noxious Gearhulk</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/noxiousgearhulkpromo.jpg">KLDP</set>
+	<color>B</color>
+	<manacost>4BB</manacost>
+	<cmc>6</cmc>
+	<type>Artifact Creature - Construct</type>
+	<pt>5/4</pt>
+	<text>MenaceWhen Noxious Gearhulk enters the battlefield, you may destroy another target creature. If a creature is destroyed this way, you gain life equal to its toughness.</text>
+</card>
+<card>
+	<name>Combustible Gearhulk</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/combustiblegearhulkpromo.jpg">KLDP</set>
+	<color>R</color>
+	<manacost>4RR</manacost>
+	<cmc>6</cmc>
+	<type>Artifact Creature - Construct</type>
+	<pt>6/6</pt>
+	<text>First strikeWhen Combustible Gearhulk enters the battlefield, target opponent may have you draw three cards. If the player doesn't, put the top three cards of your library into your graveyard, the Combustible Gearhulk deals damage to that player equal to the total converted mana cost of those cards.</text>
+</card>
+<card>
+	<name>Verdurous Gearhulk</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/verdurousgearhulkpromo.jpg">KLDP</set>
+	<color>G</color>
+	<manacost>3GG</manacost>
+	<cmc>5</cmc>
+	<type>Artifact Creature - Construct</type>
+	<pt>4/4</pt>
+	<text>TrampleWhen Verdurous Gearhulk enters the battlefield, distribute four +1/+1 counters among any number of target creatures you control.</text>
+</card>
+<card>
+	<name>Sword of Light and Shadow</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/swordoflightandshadow.jpg">KLDP</set>
+	<manacost>3</manacost>
+	<cmc>3</cmc>
+	<type>Artifact - Equipment</type>
+	<text>Equipped creature gets +2/+2 and has protection from white and from black.Whenever equipped creature deals combat damage to a player, you gain 3 life and you may return up to one target creature card from your graveyard to your hand.Equip 2</text>
+</card>
+<card>
+	<name>Sword of Fire and Ice</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/swordoffireandice.jpg">KLDP</set>
+	<manacost>3</manacost>
+	<cmc>3</cmc>
+	<type>Artifact - Equipment</type>
+	<text>Equipped creature gets +2/+2 and has protection from red and from blue.Whenever equipped creature deals combat damage to a player, sword of Fire and Ice deals 2 damage to target creature or player and you draw a card.Equip 2</text>
+</card>
+<card>
+	<name>Sword of Feast and Famine</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/swordoffeastandfamine.jpg">KLDP</set>
+	<manacost>3</manacost>
+	<cmc>3</cmc>
+	<type>Artifact - Equipment</type>
+	<text>Equipment creature gets +2/+2 and has protection from black and from green.Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control.Equip 2</text>
+</card>
+<card>
+	<name>Steel Overseer</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/steeloverseer.jpg">KLDP</set>
+	<manacost>2</manacost>
+	<cmc>2</cmc>
+	<type>Artifact Creature - Construct</type>
+	<pt>1/1</pt>
+	<text>T: Put a +1/+1 counter on each artifact creature you control.</text>
+</card>
+<card>
+	<name>Static Orb</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/staticorb.jpg">KLDP</set>
+	<manacost>3</manacost>
+	<cmc>3</cmc>
+	<type>Artifact</type>
+	<text>As long as Static Orb is untapped, players can't untap more than two permanents during their untap steps.</text>
+</card>
+<card>
+	<name>Solemn Simulacrum</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/solemnsimulacrum.jpg">KLDP</set>
+	<manacost>4</manacost>
+	<cmc>4</cmc>
+	<type>Artifact Creature - Golem</type>
+	<pt>2/2</pt>
+	<text>When Solemn Simulacrum enters the battlefield, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.When Solemn Simulacrum dies, you may draw a card.</text>
+</card>
+<card>
+	<name>Sol Ring</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/solring.jpg">KLDP</set>
+	<manacost>1</manacost>
+	<type>Artifact</type>
+	<text>T: Add &amp;loz; &amp;loz; to your mana pool.</text>
+</card>
+<card>
+	<name>Sculpting Steel</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/sculptingsteel.jpg">KLDP</set>
+	<manacost>3</manacost>
+	<cmc>3</cmc>
+	<type>Artifact</type>
+	<text>You may have Sculpting Steel enter the battlefield as a copy of any artifact on the battlefield.</text>
+</card>
+<card>
+	<name>Mox Opal</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/moxopal.jpg">KLDP</set>
+	<manacost>0</manacost>
+	<type>Legendary Artifact</type>
+	<text>Metalcraft - T: Add one mana of any color to your mana pool. Activate this ability only if you control three or more artifacts.</text>
+</card>
+<card>
+	<name>Painter's Servant</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/paintersservant.jpg">KLDP</set>
+	<manacost>2</manacost>
+	<cmc>2</cmc>
+	<type>Artifact Creature - Scarecrow</type>
+	<text>As Painter's Servant enters the battlefield, choose a color.All cards that aren't on the battlefield, spells, and permanents are the chosen color in addition to their other colors.</text>
+</card>
+<card>
+	<name>Rings of Brighthearth</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/ringsofbrighthearth.jpg">KLDP</set>
+	<manacost>3</manacost>
+	<cmc>3</cmc>
+	<type>Artifact</type>
+	<text>Whenever you activate an ability, if it isn't a mana ability, you may pay 2. If you do, copy that ability. You may choose new targets for the copy.</text>
+</card>
+<card>
+	<name>Scroll Rack</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/scrollrack.jpg">KLDP</set>
+	<manacost>2</manacost>
+	<cmc>2</cmc>
+	<type>Artifact</type>
+	<text>1, T: Exile any number of cards from your hand face down. Put that many cards from the top of your library into your hand. Then look at the exiled cards and put them on top of your library in any order.</text>
+</card>
+<card>
+	<name>Lightning Greaves</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/lightninggreaves.jpg">KLDP</set>
+	<manacost>2</manacost>
+	<cmc>2</cmc>
+	<type>Artifact - Equipment</type>
+	<text>Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)Equip 0</text>
+</card>
+<card>
+	<name>Lotus Petal</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/lotuspetal.jpg">KLDP</set>
+	<manacost>0</manacost>
+	<type>Artifact</type>
+	<text>T, Sacrifice Lotus Petal: Add one mana of any color to your mana pool.</text>
+</card>
+<card>
+	<name>Mana Vault</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/manavault.jpg">KLDP</set>
+	<manacost>1</manacost>
+	<type>Artifact</type>
+	<text>Mana Vault doesn't untap during your untap step.At the beginning of your upkeep, you may pay 4. If you do, untap Mana Vault.At the beginning of your draw step, if Mana Vault is tapped, it deals 1 damage to you.T: Add &amp;loz;&amp;loz;&amp;loz; to your mana pool.</text>
+</card>
+<card>
+	<name>Mind's Eye</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/mindseye.jpg">KLDP</set>
+	<manacost>5</manacost>
+	<cmc>5</cmc>
+	<type>Artifact</type>
+	<text>Whenever an opponent draws a card, you may pay 1. If you do, draw a card.</text>
+</card>
+<card>
+	<name>Crucible of Worlds</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/crucibleofworlds.jpg">KLDP</set>
+	<manacost>3</manacost>
+	<cmc>3</cmc>
+	<type>Artifact</type>
+	<text>You may play land cards from your graveyard.</text>
+</card>
+<card>
+	<name>Cloudstone Curio</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/cloudstonecurio.jpg">KLDP</set>
+	<manacost>3</manacost>
+	<cmc>3</cmc>
+	<type>Artifact</type>
+	<text>Whenever a nonartifact permanent enters the battlefield under your control, you may return another permanent you control that shares a permanent type with it to its owner's hand.</text>
+</card>
+<card>
+	<name>Chrome Mox</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/chromemox.jpg">KLDP</set>
+	<manacost>0</manacost>
+	<type>Artifact</type>
+	<text>Imprint - When Chrome Mox enters the battlefield, you may exile a nonartifact, nonland card from your hand.T: Add one mana of any of the exiled card's colors to your mana pool.</text>
+</card>
+<card>
+	<name>Chromatic Lantern</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/chromaticlantern.jpg">KLDP</set>
+	<manacost>3</manacost>
+	<cmc>3</cmc>
+	<type>Artifact</type>
+	<text>Lands you control have "T: Add one mana of any color to your mana pool."T: Add one mana of any color to your mana pool.</text>
+</card>
+<card>
+	<name>Champion's Helm</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/championshelm.jpg">KLDP</set>
+	<manacost>3</manacost>
+	<cmc>3</cmc>
+	<type>Artifact - Equipment</type>
+	<text>Equipped creature gets +2/+2.As long as equipped creature is legendary, it has hexproof. (It can't be the target of spells or abilities your opponents control.)Equip 1</text>
+</card>
+<card>
+	<name>Aether Vial</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/aethervial.jpg">KLDP</set>
+	<manacost>1</manacost>
+	<type>Artifact</type>
+	<text>At the beginning of your upkeep, you may put a charge counter on Aether Vial.T: You may put a creature card with converted mana cost equal to the number of charge counters on Aether Vial from your hand onto the battlefield.</text>
+</card>
+<card>
+	<name>Mana Crypt</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/manacrypt.jpg">KLDP</set>
+	<manacost>0</manacost>
+	<type>Artifact</type>
+	<text>At the beginning of your upkeep, flip a coin. If you lose the flip, Mana Crypt deals 3 damage to you. T: Add &amp;loz; &amp;loz; to your mana pool.</text>
+</card>
+<card>
+	<name>Gauntlet of Power</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/gauntletofpower.jpg">KLDP</set>
+	<manacost>5</manacost>
+	<cmc>5</cmc>
+	<type>Artifact</type>
+	<text>As Gauntlet of Power enters the battlefield, choose a color. Creatures of the chosen color get +1/+1.Whenever a basic land is tapped for mana of the chosen color, its controller adds one mana of that color to his or her mana pool.</text>
+</card>
+<card>
+	<name>Hangarback Walker</name>
+	<set picURL="http://mythicspoiler.com/kld/cards/hangarbackwalker.jpg">KLDP</set>
+	<manacost>XX</manacost>
+	<cmc>2</cmc>
+	<type>Artifact Creature - Construct</type>
+	<pt>0/0</pt>
+	<text>Hangarback Walker enters the battlefield with X +1/+1 counters on it.When Hangarback Walker dies, put a 1/1 colorless thopter artifact creature token with flying onto the battlefield for each +1/+1 counter on Hangarback Walker.1, T: Put a +1/+1 counter on Hangarback Walker.</text>
+</card>

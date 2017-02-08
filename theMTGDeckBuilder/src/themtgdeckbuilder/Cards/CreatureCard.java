@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package themtgdeckbuilder;
+package themtgdeckbuilder.Cards;
 
 /**
  *
@@ -31,7 +31,7 @@ public class CreatureCard extends PermanentCard{
         this.CreatureType = CreatureType;
     }
 
-    public CreatureCard(String CreatureType, int attack, int defense, String p_name, String p_type, Object[][] p_manaTypes, int p_id) {
+    public CreatureCard(String p_name, String p_type, Object[][] p_manaTypes, int p_id, int attack, int defense, String CreatureType ) {
         super(attack, defense, p_name, p_type, p_manaTypes, p_id);
         this.CreatureType = CreatureType;
     }

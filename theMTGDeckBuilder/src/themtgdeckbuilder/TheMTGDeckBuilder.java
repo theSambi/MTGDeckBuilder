@@ -5,6 +5,7 @@
  */
 package themtgdeckbuilder;
 
+import themtgdeckbuilder.Cards.DataHandler;
 import java.util.Scanner;
 
 /**
@@ -24,6 +25,8 @@ public class TheMTGDeckBuilder {
         
         Data.getCard("Acrobatic Maneuver");
         Data.getCard("Aetherstorm Roc");
+        
+        Data.listAllAvailableCards();
         
         while(true){
             System.out.println("MTG Kaladesh pakanrakennusohjelma");
