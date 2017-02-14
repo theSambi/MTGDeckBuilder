@@ -16,9 +16,7 @@ import java.io.*;
 */
 import java.util.Arrays;
 import java.util.Hashtable;
-import themtgdeckbuilder.Cards.Card;
-import themtgdeckbuilder.Cards.CreatureCard;
-import themtgdeckbuilder.Cards.EnchantmentCard;
+import java.util.Enumeration;
 
 /**
  *
@@ -27,7 +25,7 @@ import themtgdeckbuilder.Cards.EnchantmentCard;
 public class DataHandler {
     private Card[] Cards = new Card[6];
   
-    IO io = new IO();
+    private IO io = new IO();
     
     private Hashtable<String, Integer> Data = new Hashtable<>();
     
@@ -97,10 +95,9 @@ public class DataHandler {
                          System.out.println("Valitse luku väliltä 1-6.");
                     }
                 case 2:
-                    System.out.println("HELLO 2"); 
+                    removeCard();
                     break;
                 case 3:
-                    System.out.println("HELLO 3");
                     getBack = false;
                     break;
                 default:
@@ -145,15 +142,25 @@ public class DataHandler {
         }
         Data.put(nimi, korttiNro);
     }
+    public void removeCard(){
+        System.out.println("Näytä kaikki kortit? (k/e)");
+        if (io.annaString() == "k") {
+            listAllAvailableCards();
+        }
+        System.out.println("Anna poistettavan kortin ID");
+        int poistettava = io.annaInt();
+        Data.remove(poistettava);
+    }
     
     public void listAllAvailableCards(){
         int length;
         length = Data.size();
         System.out.println(length);
+        Enumeration e = Data.keys();
         System.out.println("All available cards:");
-        for (int i = 1; i <= length; i++){
-            Integer tempCard = Data.get(i);
-            System.out.println(i + " " + Cards[i].getName());
+        while (e.hasMoreElements()){
+            String key = (String) e.nextElement();
+            System.out.println(key + " " + Data.get(key));
         }
     }
 }
