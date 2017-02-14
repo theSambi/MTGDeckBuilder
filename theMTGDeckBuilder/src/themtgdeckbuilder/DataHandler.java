@@ -14,6 +14,7 @@ import org.xml.sax.helpers.*;
 import java.util.*;
 import java.io.*;
 */
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Hashtable;
 import java.util.Enumeration;
@@ -27,6 +28,8 @@ public class DataHandler {
   
     private IO io = new IO();
     
+    private static ArrayList Card = new ArrayList();
+    
     private Hashtable<String, Integer> Data = new Hashtable<>();
     
     public static String newline = System.getProperty("line.separator");
@@ -38,6 +41,12 @@ public class DataHandler {
         Cards[3] = new CreatureCard("Aetherstorm Roc", "Creature — Bird", new Object[][] {{"white",2},{"generic",2}}, 3, 3, 3, "Bird");
         Cards[4] = new CreatureCard("Angel of Invention", "Creature — Angel", new Object[][] {{"white",2},{"generic",3}}, 4, 2, 1, "Angel");
         Cards[5] = new EnchantmentCard("Authority of the Consuls", "Enchantment", new Object[][] {{"white",1}}, 5,-1,-1);
+        
+        Card.add(new Card("Acrobatic Maneuver", "Instant", new Object[][] {{"white",1},{"generic",2}}, 1));
+        Card.add(new CreatureCard("Aerial Responder", "Creature — Dwarf Soldier", new Object[][] {{"white",2},{"generic",1}}, 2, 2, 3, "Dwarf Soldier"));
+        Card.add(new CreatureCard("Aetherstorm Roc", "Creature — Bird", new Object[][] {{"white",2},{"generic",2}}, 3, 3, 3, "Bird"));
+        Card.add(new CreatureCard("Angel of Invention", "Creature — Angel", new Object[][] {{"white",2},{"generic",3}}, 4, 2, 1, "Angel"));
+        Card.add(new EnchantmentCard("Authority of the Consuls", "Enchantment", new Object[][] {{"white",1}}, 5,-1,-1));
         
         for(int i = 1; i < Cards.length; i++){
             String name = Cards[i].getName();
@@ -125,31 +134,34 @@ public class DataHandler {
 
         System.out.println("Korttinumero?");
         korttiNro = io.annaInt();
-        
-        if (p_tyyppi == 1 || p_tyyppi == 3){
-            System.out.println("Power?");
-            korttiPower = io.annaInt();
+        while(true){
+            if (korttiNro > 0 && korttiNro < Cards[0].getStaticNumberOfCards()) {
+                if (p_tyyppi == 1 || p_tyyppi == 3){
+                    System.out.println("Power?");
+                    korttiPower = io.annaInt();
 
-            System.out.println("Toughness?");
-            korttiToughness = io.annaInt();
-        }
-        if (p_tyyppi == 1){
-            System.out.println("Creature tyyppi?");
-            korttiTyyppi = io.annaString();
-        }
-        if(p_tyyppi == 1){
-            Cards[Cards.length-1] = new CreatureCard(nimi, "Creature Cards", new Object [][]{{"Generic",1},{"Mountain",2}}, korttiNro, korttiPower, korttiToughness, korttiTyyppi);
+                    System.out.println("Toughness?");
+                    korttiToughness = io.annaInt();
+                }
+                if (p_tyyppi == 1){
+                    System.out.println("Creature tyyppi?");
+                    korttiTyyppi = io.annaString();
+                    Cards[Cards.length-1] = new CreatureCard(nimi, "Creature Cards", new Object [][]{{"Generic",1},{"Mountain",2}}, korttiNro, korttiPower, korttiToughness, korttiTyyppi);
+                }
+                break;
+            }
         }
         Data.put(nimi, korttiNro);
     }
     public void removeCard(){
         System.out.println("Näytä kaikki kortit? (k/e)");
-        if (io.annaString() == "k") {
+        if (io.annaString().equals("k")) {
             listAllAvailableCards();
         }
-        System.out.println("Anna poistettavan kortin ID");
-        int poistettava = io.annaInt();
-        Data.remove(poistettava);
+        System.out.println("Anna poistettavan kortin nimi");
+        String poistettava = io.annaString();
+        int poistettavaID = Integer.parseInt(poistettava);
+        Integer remove = Data.remove(poistettava);
     }
     
     public void listAllAvailableCards(){
