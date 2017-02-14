@@ -5,8 +5,6 @@
  */
 package themtgdeckbuilder;
 
-import java.util.Scanner;
-
 /**
  *
  * @author sambi
@@ -17,13 +15,9 @@ public class TheMTGDeckBuilder {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        IO io = new IO();
+
         DataHandler Data = new DataHandler();
-        
-        
-        
-        Data.getCard("Acrobatic Maneuver");
-        Data.getCard("Aetherstorm Roc");
         
         Data.listAllAvailableCards();
         
@@ -34,13 +28,14 @@ public class TheMTGDeckBuilder {
             System.out.println("2. Kortit");
             System.out.println("3. Lopeta");
             
-            int valinta = sc.nextInt();
+            int valinta = io.annaInt();
             switch (valinta) {
                 case 1:
                     Decks();
+                    Data.listAllAvailableCards();
                     break;
                 case 2:
-                    Cards();
+                    Data.manageCards();
                     break;
                 case 3:
                     System.exit(0);
@@ -53,9 +48,9 @@ public class TheMTGDeckBuilder {
         }
     }
     private static void Cards(){
-
+        
     } 
     private static void Decks(){
-
+        
     }      
 }
